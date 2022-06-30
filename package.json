@@ -1,0 +1,25 @@
+{
+  "name": "wink-assets",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/WinkFinancial/wink-assets",
+  "author": "WinkFinancial",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn clean && yarn prettier && yarn lint && yarn compile",
+    "compile": "tsc",
+    "clean": "rm -rf dist",
+    "prettier": "prettier --write \"./**/*.ts\"",
+    "prettier:check": "prettier --check \"./**/*.ts\"",
+    "lint": "eslint \"./**/*.ts\" --fix",
+    "lint:check": "eslint \"./**/*.ts\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.0",
+    "@typescript-eslint/parser": "^5.30.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}

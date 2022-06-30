@@ -1,7 +1,7 @@
 import { ChainId } from '../chainIds';
 import { IToken } from '../interfaces';
 
-export const telosTokens: IToken[] = [
+export const tokens: IToken[] = [
   {
     name: 'TLOS',
     address: '0x0000000000000000000000000000000000000000',

@@ -1,7 +1,7 @@
 import { ChainId } from '../chainIds';
 import { IToken } from '../interfaces';
 
-export const bscTestnetTokens: IToken[] = [
+export const tokens: IToken[] = [
   {
     name: 'USDT',
     address: '0x863C2c19208aC736324e438DF9a49F39c3dbA843',

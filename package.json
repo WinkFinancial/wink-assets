@@ -6,7 +6,8 @@
   "author": "WinkFinancial",
   "license": "MIT",
   "scripts": {
-    "build": "yarn clean && yarn prettier && yarn lint && tsc",
+    "build": "yarn clean && yarn prettier && yarn lint && yarn compile",
+    "compile": "tsc",
     "clean": "rm -rf dist",
     "prettier": "prettier --write \"./**/*.ts\"",
     "prettier:check": "prettier --check \"./**/*.ts\"",

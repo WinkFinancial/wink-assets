@@ -1,7 +1,7 @@
 import { ChainId } from '../chainIds';
 import { IToken } from '../interfaces';
 
-export const rinkebyTokens: IToken[] = [
+export const tokens: IToken[] = [
   {
     name: 'USDT',
     address: '0xd0CdDBee19A25D65B0D905F7053Fdd19947ab370',

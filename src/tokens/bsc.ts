@@ -1,7 +1,7 @@
 import { ChainId } from '../chainIds';
 import { IToken } from '../interfaces';
 
-export const bscTokens: IToken[] = [
+export const tokens: IToken[] = [
   {
     name: 'ETH',
     address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',

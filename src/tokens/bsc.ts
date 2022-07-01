@@ -91,11 +91,11 @@ export const tokens: IToken[] = [
     symbol: 'BNB',
   },
   {
-    name: 'ETH',
+    name: 'BETH',
     address: '0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B',
     chainId: ChainId.BSC,
-    enabled: true,
+    enabled: false,
     decimals: 18,
-    symbol: 'ETH',
+    symbol: 'BETH',
   },
 ];

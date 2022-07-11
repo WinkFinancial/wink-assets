@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
+    coingeckoId: 'tether',
   },
   {
     name: 'WBTC',
@@ -17,6 +18,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBTC',
+    coingeckoId: 'wrapped-bitcoin',
   },
   {
     name: 'Dai Token',
@@ -25,6 +27,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    coingeckoId: 'dai',
   },
   {
     name: 'BNB',
@@ -33,5 +36,6 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BNB',
+    coingeckoId: 'binancecoin',
   },
 ];

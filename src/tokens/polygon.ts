@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDC',
+    coingeckoId: 'usd-coin',
   },
   {
     name: 'USDT',
@@ -17,6 +18,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDT',
+    coingeckoId: 'tether',
   },
   {
     name: 'Dai Token',
@@ -25,6 +27,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    coingeckoId: 'dai',
   },
   {
     name: 'ETH',
@@ -33,6 +36,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'ETH',
+    coingeckoId: 'ethereum',
   },
   {
     name: 'MATIC',
@@ -41,5 +45,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'MATIC',
+    coingeckoId: 'matic-network',
   },
 ];

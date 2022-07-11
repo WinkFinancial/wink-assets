@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'TLOS',
+    coingeckoId: 'telos',
   },
   {
     name: 'USDT',
@@ -17,5 +18,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDT',
+    coingeckoId: 'tether',
   },
 ];

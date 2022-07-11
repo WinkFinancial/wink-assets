@@ -8,6 +8,7 @@ export interface INetwork {
   isSwapV2: boolean;
   addressExplorerUrl: string;
   txExplorerUrl: string;
+  isMainnet: boolean;
 }
 
 export interface IToken {

@@ -11,6 +11,7 @@ export const networksByChainId: INetworkByChainId = {
     isSwapV2: false,
     addressExplorerUrl: 'https://etherscan.io/address/',
     txExplorerUrl: 'https://etherscan.io/tx/',
+    isMainnet: true,
   },
   [ChainId.Rinkeby]: {
     name: 'Rinkeby',
@@ -21,6 +22,7 @@ export const networksByChainId: INetworkByChainId = {
     isSwapV2: false,
     addressExplorerUrl: 'https://rinkeby.etherscan.io/address/',
     txExplorerUrl: 'https://rinkeby.etherscan.io/tx/',
+    isMainnet: false,
   },
   [ChainId.BSC]: {
     name: 'Binance Smart Chain',
@@ -31,6 +33,7 @@ export const networksByChainId: INetworkByChainId = {
     isSwapV2: true,
     addressExplorerUrl: 'https://bscscan.com/address/',
     txExplorerUrl: 'https://bscscan.com/tx/',
+    isMainnet: true,
   },
   [ChainId.BSCTestnet]: {
     name: 'BSC Testnet',
@@ -41,6 +44,7 @@ export const networksByChainId: INetworkByChainId = {
     isSwapV2: true,
     addressExplorerUrl: 'https://testnet.bscscan.com/address/',
     txExplorerUrl: 'https://testnet.bscscan.com/tx/',
+    isMainnet: false,
   },
   [ChainId.Telos]: {
     name: 'Telos EVM Mainnet',
@@ -51,6 +55,7 @@ export const networksByChainId: INetworkByChainId = {
     isSwapV2: true,
     addressExplorerUrl: 'https://www.teloscan.io/address/',
     txExplorerUrl: 'https://www.teloscan.io/tx/',
+    isMainnet: true,
   },
   [ChainId.TelosTestnet]: {
     name: 'Telos EVM Testnet',
@@ -61,6 +66,7 @@ export const networksByChainId: INetworkByChainId = {
     isSwapV2: true,
     addressExplorerUrl: 'https://testnet.teloscan.io/address/',
     txExplorerUrl: 'https://testnet.teloscan.io/tx/',
+    isMainnet: false,
   },
   [ChainId.Polygon]: {
     name: 'Polygon',
@@ -71,6 +77,7 @@ export const networksByChainId: INetworkByChainId = {
     isSwapV2: true,
     addressExplorerUrl: 'https://polygonscan.com/address/',
     txExplorerUrl: 'https://polygonscan.com/tx/',
+    isMainnet: true,
   },
   [ChainId.Mumbai]: {
     name: 'Mumbai',
@@ -81,5 +88,6 @@ export const networksByChainId: INetworkByChainId = {
     isSwapV2: true,
     addressExplorerUrl: 'https://mumbai.polygonscan.com/address/',
     txExplorerUrl: 'https://mumbai.polygonscan.com/tx/',
+    isMainnet: false,
   },
 };

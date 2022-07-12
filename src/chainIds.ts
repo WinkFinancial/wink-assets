@@ -5,6 +5,8 @@ export enum ChainId {
   BSCTestnet = 97,
   Telos = 40,
   TelosTestnet = 41,
+  RSK = 30,
+  RSKTestnet = 31,
   Polygon = 137,
   Mumbai = 80001,
 }

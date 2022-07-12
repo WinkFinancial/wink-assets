@@ -42,4 +42,12 @@ export const tokens: IToken[] = [
     decimals: 18,
     symbol: 'MATIC',
   },
+  {
+    name: 'BUSD',
+    address: '0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7',
+    chainId: ChainId.Polygon,
+    enabled: true,
+    decimals: 18,
+    symbol: 'BUSD',
+  },
 ];

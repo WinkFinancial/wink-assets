@@ -34,4 +34,12 @@ export const tokens: IToken[] = [
     decimals: 18,
     symbol: 'ETH',
   },
+  {
+    name: 'USDC',
+    address: '0xb18d016cDD2d9439A19f15633005A6b2cd6Aa774',
+    chainId: 4,
+    enabled: true,
+    decimals: 6,
+    symbol: 'USDC',
+  },
 ];

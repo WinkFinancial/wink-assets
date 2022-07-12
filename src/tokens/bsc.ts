@@ -90,4 +90,12 @@ export const tokens: IToken[] = [
     decimals: 18,
     symbol: 'BNB',
   },
+  {
+    name: 'BETH',
+    address: '0x250632378E573c6Be1AC2f97Fcdf00515d0Aa91B',
+    chainId: ChainId.BSC,
+    enabled: false,
+    decimals: 18,
+    symbol: 'BETH',
+  },
 ];

@@ -69,7 +69,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: false,
   },
   [ChainId.RSK]: {
-    name: 'RSK EVM Mainnet',
+    name: 'RSK Mainnet',
     chainId: ChainId.RSK,
     payrollAddress: '0x0000000000000000000000000000000000000000',
     routerAddress: '0xf55c496bB1058690DB1401c4B9C19f3f44374961', // rskswap v2
@@ -80,7 +80,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: true,
   },
   [ChainId.RSKTestnet]: {
-    name: 'RSK EVM Testnet',
+    name: 'RSK Testnet',
     chainId: ChainId.RSKTestnet,
     payrollAddress: '0x18c42168D834c99E2e7a368a5Fbf39F5BB32e09D',
     routerAddress: '0xf55c496bB1058690DB1401c4B9C19f3f44374961', // rskswap v2

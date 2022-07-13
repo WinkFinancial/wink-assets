@@ -45,5 +45,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDC',
+    coingeckoId: 'usd-coin',
   },
 ];

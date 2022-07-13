@@ -54,6 +54,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BUSD',
+    coingeckoId: 'binance-usd',
   },
   {
     name: 'SHIB',
@@ -62,6 +63,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'SHIB',
+    coingeckoId: 'shiba-inu',
   },
   {
     name: 'LINK',
@@ -70,6 +72,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'LINK',
+    coingeckoId: 'link',
   },
   {
     name: 'UNI',
@@ -78,5 +81,6 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'UNI',
+    coingeckoId: 'uniswap',
   },
 ];

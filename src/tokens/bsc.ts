@@ -108,5 +108,6 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BETH',
+    coingeckoId: 'binance-eth'
   },
 ];

@@ -54,5 +54,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BUSD',
+    coingeckoId: 'binance-usd',
   },
 ];

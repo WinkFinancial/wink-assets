@@ -45,6 +45,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI2',
+    coingeckoId: 'dai',
   },
   {
     name: 'USDC',
@@ -53,6 +54,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDC',
+    coingeckoId: 'usd-coin',
   },
   {
     name: 'USDT2',
@@ -61,6 +63,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT2',
+    coingeckoId: 'tether',
   },
   {
     name: 'BUSD',
@@ -69,6 +72,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BUSD',
+    coingeckoId: 'binance-usd',
   },
   {
     name: 'BTCB',
@@ -77,6 +81,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BTCB',
+    coingeckoId: 'binance-bitcoin',
   },
   {
     name: 'ETH',
@@ -85,6 +90,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'ETH',
+    coingeckoId: 'ethereum',
   },
   {
     name: 'XRP',
@@ -93,6 +99,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'XRP',
+    coingeckoId: 'ripple',
   },
   {
     name: 'Wrapped BNB',
@@ -101,5 +108,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBNB',
+    coingeckoId: 'wbnb',
   },
 ];

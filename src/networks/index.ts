@@ -1,4 +1,5 @@
 import { ChainId } from '../chainIds';
+import { INetwork } from '../interfaces';
 import { INetworkByChainId } from '../types';
 
 export const networksByChainId: INetworkByChainId = {
@@ -12,6 +13,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://etherscan.io/address/',
     txExplorerUrl: 'https://etherscan.io/tx/',
     isMainnet: true,
+    enabled: true,
   },
   [ChainId.Rinkeby]: {
     name: 'Rinkeby',
@@ -23,6 +25,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://rinkeby.etherscan.io/address/',
     txExplorerUrl: 'https://rinkeby.etherscan.io/tx/',
     isMainnet: false,
+    enabled: true,
   },
   [ChainId.BSC]: {
     name: 'Binance Smart Chain',
@@ -34,6 +37,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://bscscan.com/address/',
     txExplorerUrl: 'https://bscscan.com/tx/',
     isMainnet: true,
+    enabled: true,
   },
   [ChainId.BSCTestnet]: {
     name: 'BSC Testnet',
@@ -45,6 +49,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://testnet.bscscan.com/address/',
     txExplorerUrl: 'https://testnet.bscscan.com/tx/',
     isMainnet: false,
+    enabled: true,
   },
   [ChainId.Telos]: {
     name: 'Telos EVM Mainnet',
@@ -56,6 +61,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://www.teloscan.io/address/',
     txExplorerUrl: 'https://www.teloscan.io/tx/',
     isMainnet: true,
+    enabled: false,
   },
   [ChainId.TelosTestnet]: {
     name: 'Telos EVM Testnet',
@@ -67,6 +73,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://testnet.teloscan.io/address/',
     txExplorerUrl: 'https://testnet.teloscan.io/tx/',
     isMainnet: false,
+    enabled: false,
   },
   [ChainId.RSK]: {
     name: 'RSK Mainnet',
@@ -78,6 +85,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://explorer.rsk.co/address/',
     txExplorerUrl: 'https://explorer.rsk.co/tx/',
     isMainnet: true,
+    enabled: true,
   },
   [ChainId.RSKTestnet]: {
     name: 'RSK Testnet',
@@ -89,6 +97,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://explorer.testnet.rsk.co/address/',
     txExplorerUrl: 'https://explorer.testnet.rsk.co/tx/',
     isMainnet: false,
+    enabled: true,
   },
   [ChainId.Polygon]: {
     name: 'Polygon',
@@ -100,6 +109,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://polygonscan.com/address/',
     txExplorerUrl: 'https://polygonscan.com/tx/',
     isMainnet: true,
+    enabled: false,
   },
   [ChainId.Mumbai]: {
     name: 'Mumbai',
@@ -111,5 +121,22 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://mumbai.polygonscan.com/address/',
     txExplorerUrl: 'https://mumbai.polygonscan.com/tx/',
     isMainnet: false,
+    enabled: false,
   },
 };
+
+export const allMainnetNetworks: INetwork[] = Object.values(
+  networksByChainId
+).filter((x) => x.isMainnet);
+
+export const mainnetNetworks: INetwork[] = allMainnetNetworks.filter(
+  (x) => x.enabled
+);
+
+export const allTestnetNetworks: INetwork[] = Object.values(
+  networksByChainId
+).filter((x) => !x.isMainnet);
+
+export const testnetNetworks: INetwork[] = allMainnetNetworks.filter(
+  (x) => x.enabled
+);

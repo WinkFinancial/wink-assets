@@ -9,6 +9,7 @@ export interface INetwork {
   addressExplorerUrl: string;
   txExplorerUrl: string;
   isMainnet: boolean;
+  enabled: boolean;
 }
 
 export interface IToken {

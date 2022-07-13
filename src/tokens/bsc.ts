@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'ETH',
+    coingeckoId: 'ethereum',
   },
   {
     name: 'USDC',
@@ -17,6 +18,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDC',
+    coingeckoId: 'usd-coin',
   },
   {
     name: 'USDT',
@@ -25,6 +27,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
+    coingeckoId: 'tether',
   },
   {
     name: 'XRP',
@@ -33,6 +36,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'XRP',
+    coingeckoId: 'ripple',
   },
   {
     name: 'BUSD',
@@ -41,6 +45,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BUSD',
+    coingeckoId: 'binance-usd',
   },
   {
     name: 'Cardano',
@@ -49,6 +54,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'ADA',
+    coingeckoId: 'cardano',
   },
   {
     name: 'Dogecoin',
@@ -57,6 +63,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 8,
     symbol: 'DOGE',
+    coingeckoId: 'dogecoin',
   },
   {
     name: 'BTCB',
@@ -65,6 +72,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BTCB',
+    coingeckoId: 'binance-bitcoin',
   },
   {
     name: 'WBNB',
@@ -73,6 +81,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBNB',
+    coingeckoId: 'wbnb',
   },
   {
     name: 'Dai Token',
@@ -81,6 +90,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    coingeckoId: 'dai',
   },
   {
     name: 'BNB',
@@ -89,6 +99,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BNB',
+    coingeckoId: 'binancecoin',
   },
   {
     name: 'BETH',
@@ -97,5 +108,6 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BETH',
+    coingeckoId: 'binance-eth',
   },
 ];

@@ -60,7 +60,7 @@ export const tokens: IToken[] = [
     name: 'Dogecoin',
     address: '0xba2ae424d960c26247dd6c32edc70b295c744c43',
     chainId: ChainId.BSC,
-    enabled: true,
+    enabled: false,
     decimals: 8,
     symbol: 'DOGE',
     coingeckoId: 'dogecoin',

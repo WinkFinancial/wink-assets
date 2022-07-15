@@ -29,4 +29,12 @@ export const tokens: IToken[] = [
     symbol: 'DAI',
     coingeckoId: 'dai',
   },
+  {
+    name: 'RDOC',
+    address: '0xC3De9F38581f83e281f260d0DdbaAc0e102ff9F8',
+    chainId: ChainId.RSKTestnet,
+    enabled: true,
+    decimals: 18,
+    symbol: 'RDOC',
+  },
 ];

@@ -78,7 +78,7 @@ export const networksByChainId: INetworkByChainId = {
   [ChainId.RSK]: {
     name: 'RSK Mainnet',
     chainId: ChainId.RSK,
-    payrollAddress: '0x0000000000000000000000000000000000000000',
+    payrollAddress: '0xC9E5dc2573bd73a01297a631A70Db089b52d205D',
     routerAddress: '0xf55c496bb1058690DB1401c4b9C19F3f44374961', // rskswap v2
     wCurrencyAddress: '0x967F8799aF07dF1534d48A95a5C9FEBE92c53AE0',
     isSwapV2: true,

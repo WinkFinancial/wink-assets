@@ -123,6 +123,30 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: false,
     enabled: false,
   },
+  [ChainId.Tron]: {
+    name: 'Tron',
+    chainId: ChainId.Tron,
+    payrollAddress: '',
+    routerAddress: '',
+    wCurrencyAddress: '',
+    isSwapV2: false,
+    addressExplorerUrl: '',
+    txExplorerUrl: '',
+    isMainnet: true,
+    enabled: true,
+  },
+  [ChainId.TronTestnet]: {
+    name: 'Tron Testnet',
+    chainId: ChainId.TronTestnet,
+    payrollAddress: '',
+    routerAddress: '',
+    wCurrencyAddress: '',
+    isSwapV2: false,
+    addressExplorerUrl: '',
+    txExplorerUrl: '',
+    isMainnet: true,
+    enabled: true,
+  },
 };
 
 export const allMainnetNetworks: INetwork[] = Object.values(

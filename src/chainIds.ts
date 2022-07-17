@@ -9,4 +9,6 @@ export enum ChainId {
   RSKTestnet = 31,
   Polygon = 137,
   Mumbai = 80001,
+  Tron = 728126428, // This does not exist in chainId list metamask, this is comes from defiant after connection
+  TronTestnet = 728126429 // This does not exist in chainId list metamask
 }

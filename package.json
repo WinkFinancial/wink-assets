@@ -16,7 +16,8 @@
     "prettier": "prettier --write \"./**/*.ts\"",
     "prettier:check": "prettier --check \"./**/*.ts\"",
     "lint": "eslint \"./**/*.ts\" --fix",
-    "lint:check": "eslint \"./**/*.ts\""
+    "lint:check": "eslint \"./**/*.ts\"",
+    "postinstall": "yarn build"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.30.0",

@@ -9,6 +9,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'TLOS',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/7588/small/TLOS_200.png',
     coingeckoId: 'telos',
   },
   {
@@ -18,6 +20,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDT',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
   },
 ];

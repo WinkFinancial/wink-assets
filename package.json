@@ -1,6 +1,6 @@
 {
   "name": "@wink-financial/wink-assets",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
@@ -8,7 +8,9 @@
   },
   "author": "WinkFinancial",
   "license": "MIT",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "yarn clean && yarn prettier && yarn lint && yarn compile",
     "compile": "tsc",

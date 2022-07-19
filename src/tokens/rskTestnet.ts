@@ -9,6 +9,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'RBTC',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/5070/small/rsk-logo.jpg',
     coingeckoId: 'rootstock',
   },
   {
@@ -18,6 +20,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
   },
   {
@@ -27,6 +31,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    logoURL: 'https://assets.coingecko.com/coins/images/9956/small/4943.png',
     coingeckoId: 'dai',
   },
   {
@@ -35,6 +40,7 @@ export const tokens: IToken[] = [
     chainId: ChainId.RSKTestnet,
     enabled: true,
     decimals: 18,
+    logoURL: 'https://www.rsk.co/stablecoins/img/stablecoins/rdoc.png',
     symbol: 'RDOC',
   },
 ];

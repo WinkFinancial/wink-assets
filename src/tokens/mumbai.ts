@@ -9,6 +9,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'MATIC',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/4713/small/matic-token-icon.png',
     coingeckoId: 'matic-network',
   },
   {
@@ -18,6 +20,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
   },
   {
@@ -27,6 +31,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    logoURL: 'https://assets.coingecko.com/coins/images/9956/small/4943.png',
     coingeckoId: 'dai',
   },
   {
@@ -36,6 +41,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBTC',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png',
     coingeckoId: 'wrapped-bitcoin',
   },
 ];

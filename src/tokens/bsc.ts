@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'ETH',
+    logoURL: 'https://assets.coingecko.com/coins/images/279/small/ethereum.png',
     coingeckoId: 'ethereum',
   },
   {
@@ -18,6 +19,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDC',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png',
     coingeckoId: 'usd-coin',
   },
   {
@@ -27,6 +30,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
   },
   {
@@ -36,6 +41,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'XRP',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png',
     coingeckoId: 'ripple',
   },
   {
@@ -45,6 +52,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BUSD',
+    logoURL: 'https://assets.coingecko.com/coins/images/9576/small/BUSD.png',
     coingeckoId: 'binance-usd',
   },
   {
@@ -54,6 +62,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'ADA',
+    logoURL: 'https://assets.coingecko.com/coins/images/975/small/cardano.png',
     coingeckoId: 'cardano',
   },
   {
@@ -63,6 +72,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 8,
     symbol: 'DOGE',
+    logoURL: 'https://assets.coingecko.com/coins/images/5/small/dogecoin.png',
     coingeckoId: 'dogecoin',
   },
   {
@@ -72,6 +82,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BTCB',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/14108/small/Binance-bitcoin.png',
     coingeckoId: 'binance-bitcoin',
   },
   {
@@ -81,6 +93,8 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBNB',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/12591/small/binance-coin-logo.png',
     coingeckoId: 'wbnb',
   },
   {
@@ -90,6 +104,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    logoURL: 'https://assets.coingecko.com/coins/images/9956/small/4943.png',
     coingeckoId: 'dai',
   },
   {
@@ -99,6 +114,8 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BNB',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png',
     coingeckoId: 'binancecoin',
   },
   {
@@ -108,6 +125,8 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BETH',
+    logoURL:
+      'https://assets.coingecko.com/coins/images/13804/small/Binnace.png',
     coingeckoId: 'binance-eth',
   },
 ];

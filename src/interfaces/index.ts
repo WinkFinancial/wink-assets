@@ -19,5 +19,6 @@ export interface IToken {
   enabled: boolean;
   decimals: number;
   symbol: string;
+  logoURL: string;
   coingeckoId?: string;
 }

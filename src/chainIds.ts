@@ -9,4 +9,6 @@ export enum ChainId {
   RSKTestnet = 31,
   Polygon = 137,
   Mumbai = 80001,
+  Tron = 7000,
+  Shasta = 7001,
 }

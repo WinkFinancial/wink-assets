@@ -10,6 +10,8 @@ import * as rsk from './rsk';
 import * as rskTestnet from './rskTestnet';
 import * as polygon from './polygon';
 import * as mumbai from './mumbai';
+import * as shasta from './shasta';
+import * as tron from './tron';
 import { IToken } from '../interfaces';
 
 export const tokensByChainId: ITokensByChainId = {
@@ -23,6 +25,8 @@ export const tokensByChainId: ITokensByChainId = {
   [ChainId.RSKTestnet]: rskTestnet.tokens,
   [ChainId.Polygon]: polygon.tokens,
   [ChainId.Mumbai]: mumbai.tokens,
+  [ChainId.Shasta]: shasta.tokens,
+  [ChainId.Tron]: tron.tokens,
 };
 
 export const allTokens: IToken[] = [
@@ -36,6 +40,8 @@ export const allTokens: IToken[] = [
   ...rskTestnet.tokens,
   ...polygon.tokens,
   ...mumbai.tokens,
+  ...shasta.tokens,
+  ...tron.tokens,
 ];
 
 export const ethereumTokens = ethereum.tokens;
@@ -48,3 +54,5 @@ export const rskTokens = rsk.tokens;
 export const rskTestnetTokens = rskTestnet.tokens;
 export const polygonTokens = polygon.tokens;
 export const mumbaiTokens = mumbai.tokens;
+export const shastaTokens = shasta.tokens;
+export const tronTokens = tron.tokens;

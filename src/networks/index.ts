@@ -1,6 +1,6 @@
-import { ChainId } from '../chainIds';
-import { INetwork } from '../interfaces';
-import { INetworkByChainId } from '../types';
+import { ChainId } from '../chainIds'
+import { INetwork } from '../interfaces'
+import { INetworkByChainId } from '../types'
 
 export const networksByChainId: INetworkByChainId = {
   [ChainId.Ethereum]: {
@@ -147,20 +147,12 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: true,
     enabled: false,
   },
-};
+}
 
-export const allMainnetNetworks: INetwork[] = Object.values(
-  networksByChainId
-).filter((x) => x.isMainnet);
+export const allMainnetNetworks: INetwork[] = Object.values(networksByChainId).filter((x) => x.isMainnet)
 
-export const mainnetNetworks: INetwork[] = allMainnetNetworks.filter(
-  (x) => x.enabled
-);
+export const mainnetNetworks: INetwork[] = allMainnetNetworks.filter((x) => x.enabled)
 
-export const allTestnetNetworks: INetwork[] = Object.values(
-  networksByChainId
-).filter((x) => !x.isMainnet);
+export const allTestnetNetworks: INetwork[] = Object.values(networksByChainId).filter((x) => !x.isMainnet)
 
-export const testnetNetworks: INetwork[] = allMainnetNetworks.filter(
-  (x) => x.enabled
-);
+export const testnetNetworks: INetwork[] = allMainnetNetworks.filter((x) => x.enabled)

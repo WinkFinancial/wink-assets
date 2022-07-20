@@ -1,5 +1,5 @@
-import { ChainId } from '../chainIds';
-import { IToken } from '../interfaces';
+import { ChainId } from '../chainIds'
+import { IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
@@ -19,8 +19,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDC',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png',
     coingeckoId: 'usd-coin',
   },
   {
@@ -30,8 +29,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
   },
   {
@@ -41,8 +39,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'XRP',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png',
     coingeckoId: 'ripple',
   },
   {
@@ -82,8 +79,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BTCB',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/14108/small/Binance-bitcoin.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/14108/small/Binance-bitcoin.png',
     coingeckoId: 'binance-bitcoin',
   },
   {
@@ -93,8 +89,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBNB',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/12591/small/binance-coin-logo.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/12591/small/binance-coin-logo.png',
     coingeckoId: 'wbnb',
   },
   {
@@ -114,8 +109,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BNB',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png',
     coingeckoId: 'binancecoin',
   },
   {
@@ -125,8 +119,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BETH',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/13804/small/Binnace.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/13804/small/Binnace.png',
     coingeckoId: 'binance-eth',
   },
-];
+]

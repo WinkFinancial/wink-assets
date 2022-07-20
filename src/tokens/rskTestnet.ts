@@ -1,5 +1,5 @@
-import { ChainId } from '../chainIds';
-import { IToken } from '../interfaces';
+import { ChainId } from '../chainIds'
+import { IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
@@ -9,8 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'RBTC',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/5070/small/rsk-logo.jpg',
+    logoURL: 'https://assets.coingecko.com/coins/images/5070/small/rsk-logo.jpg',
     coingeckoId: 'rootstock',
   },
   {
@@ -20,8 +19,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
   },
   {
@@ -43,4 +41,4 @@ export const tokens: IToken[] = [
     logoURL: 'https://www.rsk.co/stablecoins/img/stablecoins/rdoc.png',
     symbol: 'RDOC',
   },
-];
+]

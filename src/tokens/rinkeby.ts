@@ -1,5 +1,5 @@
-import { ChainId } from '../chainIds';
-import { IToken } from '../interfaces';
+import { ChainId } from '../chainIds'
+import { IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
@@ -9,8 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
   },
   {
@@ -30,8 +29,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBTC',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png',
     coingeckoId: 'wrapped-bitcoin',
   },
   {
@@ -51,8 +49,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDC',
-    logoURL:
-      'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png',
     coingeckoId: 'usd-coin',
   },
-];
+]

@@ -22,7 +22,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Run lint
-        run: yarn lint:check
+        run: yarn lint
 
       - name: Run Prettier
-        run: yarn prettier:check
+        run: yarn prettier

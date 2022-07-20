@@ -123,6 +123,30 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: false,
     enabled: false,
   },
+  [ChainId.Shasta]: {
+    name: 'Shasta',
+    chainId: ChainId.Shasta,
+    payrollAddress: 'TV7Ui3s45msWixKG8g8nAFzqoWXQZvmY3B',
+    routerAddress: '',
+    wCurrencyAddress: '',
+    isSwapV2: true,
+    addressExplorerUrl: 'https://shasta.tronscan.org/#/address/',
+    txExplorerUrl: 'https://shasta.tronscan.org/#/transaction/',
+    isMainnet: false,
+    enabled: true,
+  },
+  [ChainId.Tron]: {
+    name: 'Tron',
+    chainId: ChainId.Tron,
+    payrollAddress: '',
+    routerAddress: 'TKzxdSv2FZKQrEqkKVgp5DcwEXBEKMg2Ax',
+    wCurrencyAddress: 'TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR',
+    isSwapV2: true,
+    addressExplorerUrl: 'https://tronscan.org/#/address/',
+    txExplorerUrl: 'https://tronscan.org/#/transaction/',
+    isMainnet: true,
+    enabled: false,
+  },
 };
 
 export const allMainnetNetworks: INetwork[] = Object.values(

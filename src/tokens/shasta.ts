@@ -4,7 +4,7 @@ import { IToken } from '../interfaces'
 export const tokens: IToken[] = [
   {
     name: 'TRX',
-    address: '0x0000000000000000000000000000000000000000',
+    address: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb',
     chainId: ChainId.Shasta,
     enabled: true,
     decimals: 6,

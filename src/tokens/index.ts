@@ -1,18 +1,18 @@
-import { ChainId } from '../chainIds'
-import { ITokensByChainId } from '../types'
-import * as ethereum from './ethereum'
-import * as rinkeby from './rinkeby'
-import * as bsc from './bsc'
-import * as bscTestnet from './bscTestnet'
-import * as telos from './telos'
-import * as telosTestnet from './telosTestnet'
-import * as rsk from './rsk'
-import * as rskTestnet from './rskTestnet'
-import * as polygon from './polygon'
-import * as mumbai from './mumbai'
-import * as shasta from './shasta'
-import * as tron from './tron'
-import { IToken } from '../interfaces'
+import { ChainId } from '../chainIds';
+import { ITokensByChainId } from '../types';
+import * as ethereum from './ethereum';
+import * as rinkeby from './rinkeby';
+import * as bsc from './bsc';
+import * as bscTestnet from './bscTestnet';
+import * as telos from './telos';
+import * as telosTestnet from './telosTestnet';
+import * as rsk from './rsk';
+import * as rskTestnet from './rskTestnet';
+import * as polygon from './polygon';
+import * as mumbai from './mumbai';
+import * as shasta from './shasta';
+import * as tron from './tron';
+import { IToken } from '../interfaces';
 
 export const tokensByChainId: ITokensByChainId = {
   [ChainId.Ethereum]: ethereum.tokens,

@@ -1,5 +1,5 @@
-import { ChainId } from '../chainIds';
-import { IToken } from '../interfaces';
+import { ChainId } from '../chainIds'
+import { IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
@@ -18,4 +18,4 @@ export const tokens: IToken[] = [
     decimals: 18,
     symbol: 'USDT',
   },
-];
+]

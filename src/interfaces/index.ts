@@ -1,24 +1,24 @@
 export interface INetwork {
-  name: string;
-  rpcUrl?: string;
-  chainId: number;
-  payrollAddress: string;
-  routerAddress: string;
-  wCurrencyAddress: string;
-  isSwapV2: boolean;
-  addressExplorerUrl: string;
-  txExplorerUrl: string;
-  isMainnet: boolean;
-  enabled: boolean;
+  name: string
+  rpcUrl?: string
+  chainId: number
+  payrollAddress: string
+  routerAddress: string
+  wCurrencyAddress: string
+  isSwapV2: boolean
+  addressExplorerUrl: string
+  txExplorerUrl: string
+  isMainnet: boolean
+  enabled: boolean
 }
 
 export interface IToken {
-  name: string;
-  address: string;
-  chainId: number;
-  enabled: boolean;
-  decimals: number;
-  symbol: string;
-  logoURL: string;
-  coingeckoId?: string;
+  name: string
+  address: string
+  chainId: number
+  enabled: boolean
+  decimals: number
+  symbol: string
+  logoURL: string
+  coingeckoId?: string
 }

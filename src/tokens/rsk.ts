@@ -1,5 +1,5 @@
-import { ChainId } from '../chainIds';
-import { IToken } from '../interfaces';
+import { ChainId } from '../chainIds'
+import { IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
@@ -11,4 +11,4 @@ export const tokens: IToken[] = [
     logoURL: 'https://www.rsk.co/stablecoins/img/stablecoins/rdoc.png',
     symbol: 'RDOC',
   },
-];
+]

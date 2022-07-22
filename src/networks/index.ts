@@ -138,7 +138,7 @@ export const networksByChainId: INetworkByChainId = {
   [ChainId.Tron]: {
     name: 'Tron',
     chainId: ChainId.Tron,
-    payrollAddress: '',
+    payrollAddress: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb',
     routerAddress: 'TKzxdSv2FZKQrEqkKVgp5DcwEXBEKMg2Ax',
     wCurrencyAddress: 'TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR',
     isSwapV2: true,

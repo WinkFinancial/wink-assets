@@ -32,4 +32,14 @@ export const tokens: IToken[] = [
     logoURL: 'https://assets.coingecko.com/coins/images/975/small/cardano.png',
     coingeckoId: 'cardano',
   },
+  {
+    name: 'XRP',
+    address: 'TFZRqUYzHxRwptTac3jxgHqRZQotjY46gB',
+    chainId: ChainId.Shasta,
+    enabled: true,
+    decimals: 6,
+    symbol: 'XRP',
+    logoURL: 'https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png',
+    coingeckoId: 'ripple',
+  },
 ]

@@ -126,9 +126,9 @@ export const networksByChainId: INetworkByChainId = {
   [ChainId.Shasta]: {
     name: 'Shasta',
     chainId: ChainId.Shasta,
-    payrollAddress: 'TV7Ui3s45msWixKG8g8nAFzqoWXQZvmY3B',
-    routerAddress: '',
-    wCurrencyAddress: '',
+    payrollAddress: 'TD1o2DV6E5iXu2dPbu1nFPRozbqNEtiBP4',
+    routerAddress: 'TWXDN5iMLssZxQHJH8gB1jmQiUxbsBFQpa',
+    wCurrencyAddress: 'TMu1ka7N76ZdMEQdTx5KmXnbxe2fp1RvhM',
     isSwapV2: true,
     addressExplorerUrl: 'https://shasta.tronscan.org/#/address/',
     txExplorerUrl: 'https://shasta.tronscan.org/#/transaction/',

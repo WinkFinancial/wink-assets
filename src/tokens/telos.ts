@@ -11,6 +11,7 @@ export const tokens: IToken[] = [
     symbol: 'TLOS',
     logoURL: 'https://assets.coingecko.com/coins/images/7588/small/TLOS_200.png',
     coingeckoId: 'telos',
+    mainColor: '#a06cec',
   },
   {
     name: 'USDT',

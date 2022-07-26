@@ -14,6 +14,8 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://etherscan.io/tx/',
     isMainnet: true,
     enabled: true,
+    multicallAddress: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441',
+    mainColor: '#454a75',
   },
   [ChainId.Rinkeby]: {
     name: 'Rinkeby',
@@ -26,6 +28,8 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://rinkeby.etherscan.io/tx/',
     isMainnet: false,
     enabled: true,
+    multicallAddress: '0x42ad527de7d4e9d9d011ac45b31d8551f8fe9821',
+    mainColor: '#2a3f54',
   },
   [ChainId.BSC]: {
     name: 'Binance Smart Chain',
@@ -38,6 +42,8 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://bscscan.com/tx/',
     isMainnet: true,
     enabled: true,
+    multicallAddress: '0x41263cba59eb80dc200f3e2544eda4ed6a90e76c',
+    mainColor: '#f1bd12',
   },
   [ChainId.BSCTestnet]: {
     name: 'BSC Testnet',
@@ -50,6 +56,8 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://testnet.bscscan.com/tx/',
     isMainnet: false,
     enabled: true,
+    multicallAddress: '0xae11C5B5f29A6a25e955F0CB8ddCc416f522AF5C',
+    mainColor: '#f1bd12',
   },
   [ChainId.Telos]: {
     name: 'Telos EVM Mainnet',
@@ -62,6 +70,7 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://www.teloscan.io/tx/',
     isMainnet: true,
     enabled: false,
+    mainColor: '#7c4fb8',
   },
   [ChainId.TelosTestnet]: {
     name: 'Telos EVM Testnet',
@@ -74,6 +83,7 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://testnet.teloscan.io/tx/',
     isMainnet: false,
     enabled: false,
+    mainColor: '#7c4fb8',
   },
   [ChainId.RSK]: {
     name: 'RSK Mainnet',
@@ -86,6 +96,8 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://explorer.rsk.co/tx/',
     isMainnet: true,
     enabled: true,
+    multicallAddress: '0x6c62bf5440de2cb157205b15c424bceb5c3368f5',
+    mainColor: '#00b520',
   },
   [ChainId.RSKTestnet]: {
     name: 'RSK Testnet',
@@ -98,6 +110,8 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://explorer.testnet.rsk.co/tx/',
     isMainnet: false,
     enabled: true,
+    multicallAddress: '0x9e469e1fc7fb4c5d17897b68eaf1afc9df39f103',
+    mainColor: '#00b520',
   },
   [ChainId.Polygon]: {
     name: 'Polygon',
@@ -110,6 +124,8 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://polygonscan.com/tx/',
     isMainnet: true,
     enabled: false,
+    multicallAddress: '0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507',
+    mainColor: '#7b3fe4',
   },
   [ChainId.Mumbai]: {
     name: 'Mumbai',
@@ -122,6 +138,8 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://mumbai.polygonscan.com/tx/',
     isMainnet: false,
     enabled: false,
+    multicallAddress: '0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc',
+    mainColor: '#8247e5',
   },
   [ChainId.Shasta]: {
     name: 'Shasta',
@@ -134,6 +152,7 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://shasta.tronscan.org/#/transaction/',
     isMainnet: false,
     enabled: true,
+    mainColor: '#3136a7',
   },
   [ChainId.Tron]: {
     name: 'Tron',
@@ -146,6 +165,7 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://tronscan.org/#/transaction/',
     isMainnet: true,
     enabled: false,
+    mainColor: '#eb0128',
   },
 }
 

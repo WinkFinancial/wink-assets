@@ -11,6 +11,7 @@ export const tokens: IToken[] = [
     symbol: 'TRX',
     logoURL: 'https://assets.coingecko.com/coins/images/1094/small/tron-logo.png',
     coingeckoId: 'tron',
+    mainColor: '#c53028',
   },
   {
     name: 'USDT',
@@ -21,6 +22,7 @@ export const tokens: IToken[] = [
     symbol: 'USDT',
     logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
+    mainColor: '#03ac84',
   },
   {
     name: 'ADA',
@@ -31,6 +33,7 @@ export const tokens: IToken[] = [
     symbol: 'ADA',
     logoURL: 'https://assets.coingecko.com/coins/images/975/small/cardano.png',
     coingeckoId: 'cardano',
+    mainColor: '#236dd3',
   },
   {
     name: 'XRP',
@@ -41,5 +44,6 @@ export const tokens: IToken[] = [
     symbol: 'XRP',
     logoURL: 'https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png',
     coingeckoId: 'ripple',
+    mainColor: '#22282e',
   },
 ]

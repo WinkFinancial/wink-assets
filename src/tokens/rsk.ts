@@ -10,5 +10,6 @@ export const tokens: IToken[] = [
     decimals: 18,
     logoURL: 'https://www.rsk.co/stablecoins/img/stablecoins/rdoc.png',
     symbol: 'RDOC',
+    mainColor: '#0083ff',
   },
 ]

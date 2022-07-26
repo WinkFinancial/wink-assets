@@ -21,5 +21,6 @@ export const tokens: IToken[] = [
     symbol: 'USDT',
     logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
+    mainColor: '#03ac84',
   },
 ]

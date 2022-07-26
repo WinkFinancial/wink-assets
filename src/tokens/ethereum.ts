@@ -11,6 +11,7 @@ export const tokens: IToken[] = [
     symbol: 'USDC',
     logoURL: 'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png',
     coingeckoId: 'usd-coin',
+    mainColor: '#2775ca',
   },
   {
     name: 'USDT',
@@ -21,6 +22,7 @@ export const tokens: IToken[] = [
     symbol: 'USDT',
     logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
+    mainColor: '#03ac84',
   },
   {
     name: 'Dai Token',
@@ -31,6 +33,7 @@ export const tokens: IToken[] = [
     symbol: 'DAI',
     logoURL: 'https://assets.coingecko.com/coins/images/9956/small/4943.png',
     coingeckoId: 'dai',
+    mainColor: '#fab21f',
   },
   {
     name: 'Wrapped BTC',
@@ -41,6 +44,7 @@ export const tokens: IToken[] = [
     symbol: 'WBTC',
     logoURL: 'https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png',
     coingeckoId: 'wrapped-bitcoin',
+    mainColor: '#ef9241',
   },
   {
     name: 'ETH',
@@ -51,6 +55,7 @@ export const tokens: IToken[] = [
     symbol: 'ETH',
     logoURL: 'https://assets.coingecko.com/coins/images/279/small/ethereum.png',
     coingeckoId: 'ethereum',
+    mainColor: '#62688f',
   },
   {
     name: 'BUSD',
@@ -61,6 +66,7 @@ export const tokens: IToken[] = [
     symbol: 'BUSD',
     logoURL: 'https://assets.coingecko.com/coins/images/9576/small/BUSD.png',
     coingeckoId: 'binance-usd',
+    mainColor: '#f0b90a',
   },
   {
     name: 'SHIB',
@@ -71,6 +77,7 @@ export const tokens: IToken[] = [
     symbol: 'SHIB',
     logoURL: 'https://assets.coingecko.com/coins/images/11939/small/shiba.png',
     coingeckoId: 'shiba-inu',
+    mainColor: '#ff0200',
   },
   {
     name: 'LINK',
@@ -81,6 +88,7 @@ export const tokens: IToken[] = [
     symbol: 'LINK',
     logoURL: 'https://assets.coingecko.com/coins/images/877/small/chainlink-new-logo.png',
     coingeckoId: 'link',
+    mainColor: '#2a5ad9',
   },
   {
     name: 'UNI',
@@ -91,5 +99,6 @@ export const tokens: IToken[] = [
     symbol: 'UNI',
     logoURL: 'https://assets.coingecko.com/coins/images/12504/small/uniswap-uni.png',
     coingeckoId: 'uniswap',
+    mainColor: '#fe007a',
   },
 ]

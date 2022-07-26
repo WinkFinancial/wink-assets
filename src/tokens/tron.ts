@@ -11,6 +11,7 @@ export const tokens: IToken[] = [
     symbol: 'TRX',
     logoURL: 'https://assets.coingecko.com/coins/images/1094/small/tron-logo.png',
     coingeckoId: 'tron',
+    mainColor: '#c53028',
   },
   {
     name: 'USDT',
@@ -21,5 +22,6 @@ export const tokens: IToken[] = [
     symbol: 'USDT',
     logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
+    mainColor: '#03ac84',
   },
 ]

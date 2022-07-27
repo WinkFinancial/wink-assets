@@ -9,7 +9,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDC',
-    logoURL: 'https://assets.coingecko.com/coins/images/6319/small/USD_Coin_icon.png',
     coingeckoId: 'usd-coin',
   },
   {
@@ -19,7 +18,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDT',
-    logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
   },
   {
@@ -29,7 +27,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
-    logoURL: 'https://assets.coingecko.com/coins/images/9956/small/4943.png',
     coingeckoId: 'dai',
   },
   {
@@ -39,7 +36,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'ETH',
-    logoURL: 'https://assets.coingecko.com/coins/images/279/small/ethereum.png',
     coingeckoId: 'ethereum',
   },
   {
@@ -49,7 +45,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'MATIC',
-    logoURL: 'https://assets.coingecko.com/coins/images/4713/small/matic-token-icon.png',
     coingeckoId: 'matic-network',
   },
   {
@@ -59,7 +54,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BUSD',
-    logoURL: 'https://assets.coingecko.com/coins/images/9576/small/BUSD.png',
     coingeckoId: 'binance-usd',
   },
 ]

@@ -10,6 +10,13 @@ export interface INetwork {
   txExplorerUrl: string
   isMainnet: boolean
   enabled: boolean
+  multicallAddress?: string
+}
+
+export interface INetworkAttributes {
+  chainId: number
+  logoURL: string
+  mainColor: string
 }
 
 export interface IToken {
@@ -19,6 +26,11 @@ export interface IToken {
   enabled: boolean
   decimals: number
   symbol: string
-  logoURL: string
   coingeckoId?: string
+}
+
+export interface ITokenAttributes {
+  symbol: string
+  logoURL: string
+  mainColor: string
 }

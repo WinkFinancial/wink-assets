@@ -9,7 +9,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'TRX',
-    logoURL: 'https://assets.coingecko.com/coins/images/1094/small/tron-logo.png',
     coingeckoId: 'tron',
   },
   {
@@ -19,7 +18,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDT',
-    logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
   },
 ]

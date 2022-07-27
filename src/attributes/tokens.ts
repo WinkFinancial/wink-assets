@@ -1,6 +1,6 @@
 import type { ITokenAttributes } from '../interfaces'
 
-export const tokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
+export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
   ADA: {
     symbol: 'ADA',
     logoURL: 'https://assets.coingecko.com/coins/images/975/small/cardano.png',

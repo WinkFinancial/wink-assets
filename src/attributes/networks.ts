@@ -1,7 +1,7 @@
 import { ChainId } from '../chainIds'
 import type { INetworkAttributes } from '../interfaces'
 
-export const networksAttributes: { [chainId: number]: INetworkAttributes } = {
+export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
   [ChainId.Ethereum]: {
     chainId: ChainId.Ethereum,
     logoURL: 'https://assets.coingecko.com/coins/images/279/small/ethereum.png',

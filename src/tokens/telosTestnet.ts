@@ -9,9 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'TLOS',
-    logoURL: 'https://assets.coingecko.com/coins/images/7588/small/TLOS_200.png',
     coingeckoId: 'telos',
-    mainColor: '#a06cec',
   },
   {
     name: 'USDT',
@@ -20,9 +18,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
-    logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     coingeckoId: 'tether',
-    mainColor: '#03ac84',
   },
   {
     name: 'Dai Token',
@@ -31,9 +27,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
-    logoURL: 'https://assets.coingecko.com/coins/images/9956/small/4943.png',
     coingeckoId: 'dai',
-    mainColor: '#fab21f',
   },
   {
     name: 'WBTC',
@@ -42,8 +36,6 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBTC',
-    logoURL: 'https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png',
     coingeckoId: 'wrapped-bitcoin',
-    mainColor: '#ef9241',
   },
 ]

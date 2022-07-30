@@ -128,7 +128,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://mumbai.polygonscan.com/address/',
     txExplorerUrl: 'https://mumbai.polygonscan.com/tx/',
     isMainnet: false,
-    enabled: false,
+    enabled: true,
     multicallAddress: '0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc',
   },
   [ChainId.Shasta]: {

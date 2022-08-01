@@ -4,19 +4,13 @@ export interface INetwork {
   chainId: number
   payrollAddress: string
   routerAddress: string
-  wCurrencyAddress: string
+  wrappedTokenAddress: string
   isSwapV2: boolean
   addressExplorerUrl: string
   txExplorerUrl: string
   isMainnet: boolean
   enabled: boolean
   multicallAddress?: string
-}
-
-export interface INetworkAttributes {
-  chainId: number
-  logoURL: string
-  mainColor: string
 }
 
 export interface IToken {
@@ -29,8 +23,15 @@ export interface IToken {
   coingeckoId?: string
 }
 
-export interface ITokenAttributes {
-  symbol: string
+export interface IAssetAttributes {
   logoURL: string
   mainColor: string
+}
+
+export interface INetworkAttributes extends IAssetAttributes {
+  chainId: number
+}
+
+export interface ITokenAttributes extends IAssetAttributes {
+  symbol: string
 }

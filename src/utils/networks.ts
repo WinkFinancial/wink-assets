@@ -11,4 +11,4 @@ export const mainnetNetworks: INetwork[] = allMainnetNetworks.filter((network) =
 
 export const allTestnetNetworks: INetwork[] = allNetworks.filter((network) => !network.isMainnet)
 
-export const testnetNetworks: INetwork[] = allMainnetNetworks.filter((network) => network.enabled)
+export const testnetNetworks: INetwork[] = allTestnetNetworks.filter((network) => network.enabled)

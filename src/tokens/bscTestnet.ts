@@ -21,7 +21,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'wrapped-bitcoin',
   },
   {
-    name: 'Dai Token',
+    name: 'DAI',
     address: '0xD2E96745ddd7c6641866C9335909AeC605eF07A4',
     chainId: ChainId.BSCTestnet,
     enabled: true,

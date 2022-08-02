@@ -84,7 +84,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'wbnb',
   },
   {
-    name: 'Dai Token',
+    name: 'DAI',
     address: '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
     chainId: ChainId.BSC,
     enabled: true,

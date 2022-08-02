@@ -21,7 +21,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'tether',
   },
   {
-    name: 'Dai Token',
+    name: 'DAI',
     address: '0x88F6B2bC66f4c31a3669b9b1359524aBf79CfC4A',
     chainId: ChainId.Mumbai,
     enabled: true,

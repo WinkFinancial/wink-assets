@@ -21,7 +21,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'tether',
   },
   {
-    name: 'Dai Token',
+    name: 'DAI',
     address: '0x4ec48Cb892Fa8D66bF87A43A5583c748fe8c1613',
     chainId: ChainId.RSKTestnet,
     enabled: true,

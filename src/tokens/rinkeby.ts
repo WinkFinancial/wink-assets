@@ -40,11 +40,20 @@ export const tokens: IToken[] = [
   },
   {
     name: 'USDC',
-    address: '0xb18d016cDD2d9439A19f15633005A6b2cd6Aa774',
-    chainId: 4,
+    address: '0xD7147aa27eA246B2145B19B956f2342Fb6a0E667',
+    chainId: ChainId.Rinkeby,
     enabled: true,
     decimals: 6,
     symbol: 'USDC',
     coingeckoId: 'usd-coin',
+  },
+  {
+    name: 'DOGE',
+    address: '0xB860F43eE3325f4B7f5aE80113C0Ff7bc1cFbcE2',
+    chainId: ChainId.Rinkeby,
+    enabled: true,
+    decimals: 8,
+    symbol: 'DOGE',
+    coingeckoId: 'dogecoin',
   },
 ]

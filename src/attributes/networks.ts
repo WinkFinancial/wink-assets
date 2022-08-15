@@ -34,12 +34,12 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
   },
   [ChainId.RSK]: {
     chainId: ChainId.RSK,
-    logoURL: 'https://www.rsk.co/img/rsk_logo.svg',
+    logoURL: 'https://assets.coingecko.com/coins/images/5070/small/rsk-logo.jpg',
     mainColor: '#00b520',
   },
   [ChainId.RSKTestnet]: {
     chainId: ChainId.RSKTestnet,
-    logoURL: 'https://www.rsk.co/img/rsk_logo.svg',
+    logoURL: 'https://assets.coingecko.com/coins/images/5070/small/rsk-logo.jpg',
     mainColor: '#00b520',
   },
   [ChainId.Polygon]: {

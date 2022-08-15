@@ -108,7 +108,7 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
   },
   WBTC: {
     symbol: 'WBTC',
-    logoURL: 'https://bscscan.com/token/images/btcb_32.png',
+    logoURL: 'https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png',
     mainColor: '#ef9241',
   },
   XRP: {

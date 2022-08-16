@@ -18,7 +18,7 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
   },
   BTCB: {
     symbol: 'BTCB',
-    logoURL: 'https://assets.coingecko.com/coins/images/14108/small/Binance-bitcoin.png',
+    logoURL: 'https://bscscan.com/token/images/btcb_32.png',
     mainColor: '#f0b90a',
   },
   BUSD: {

@@ -114,7 +114,7 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://polygonscan.com/address/',
     txExplorerUrl: 'https://polygonscan.com/tx/',
     isMainnet: true,
-    enabled: false,
+    enabled: true,
     multicallAddress: '0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507',
   },
   [ChainId.Mumbai]: {

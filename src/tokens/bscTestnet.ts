@@ -3,7 +3,7 @@ import { IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
-    name: 'USDT',
+    name: 'Tether',
     address: '0x863C2c19208aC736324e438DF9a49F39c3dbA843',
     chainId: ChainId.BSCTestnet,
     enabled: true,
@@ -12,7 +12,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'tether',
   },
   {
-    name: 'WBTC',
+    name: 'Wraped Bitcoin',
     address: '0xCbBbdc113F480a83050C7Cd2420E100Cf6305858',
     chainId: ChainId.BSCTestnet,
     enabled: true,
@@ -21,7 +21,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'wrapped-bitcoin',
   },
   {
-    name: 'DAI',
+    name: 'Dai',
     address: '0xD2E96745ddd7c6641866C9335909AeC605eF07A4',
     chainId: ChainId.BSCTestnet,
     enabled: true,
@@ -39,7 +39,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'binancecoin',
   },
   {
-    name: 'DOGE',
+    name: 'Dogecoin',
     address: '0x2D4934559Cea42C779E7d934fB4163E30f35109c',
     chainId: ChainId.BSCTestnet,
     enabled: true,
@@ -48,7 +48,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'dogecoin',
   },
   {
-    name: 'USDC',
+    name: 'USD Coin',
     address: '0xEF37B5A896668BCF5dA88aec28F16E9167996D67',
     chainId: ChainId.BSCTestnet,
     enabled: true,

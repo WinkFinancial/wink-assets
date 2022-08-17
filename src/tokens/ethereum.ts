@@ -3,7 +3,7 @@ import { IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
-    name: 'USDC',
+    name: 'USD Coin',
     address: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
     chainId: ChainId.Ethereum,
     enabled: true,
@@ -12,7 +12,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'usd-coin',
   },
   {
-    name: 'USDT',
+    name: 'Tether',
     address: '0xdAC17F958D2ee523a2206206994597C13D831ec7',
     chainId: ChainId.Ethereum,
     enabled: true,
@@ -21,7 +21,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'tether',
   },
   {
-    name: 'DAI',
+    name: 'Dai',
     address: '0x6B175474E89094C44Da98b954EedeAC495271d0F',
     chainId: ChainId.Ethereum,
     enabled: true,
@@ -30,7 +30,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'dai',
   },
   {
-    name: 'Wrapped BTC',
+    name: 'Wrapped Bitcoin',
     address: '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599',
     chainId: ChainId.Ethereum,
     enabled: true,
@@ -39,7 +39,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'wrapped-bitcoin',
   },
   {
-    name: 'ETH',
+    name: 'Ethereum',
     address: '0x0000000000000000000000000000000000000000',
     chainId: ChainId.Ethereum,
     enabled: false,
@@ -48,7 +48,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'ethereum',
   },
   {
-    name: 'BUSD',
+    name: 'Binance USD',
     address: '0x4Fabb145d64652a948d72533023f6E7A623C7C53',
     chainId: ChainId.Ethereum,
     enabled: false,
@@ -57,7 +57,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'binance-usd',
   },
   {
-    name: 'SHIB',
+    name: 'Shiba Inu',
     address: '0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE',
     chainId: ChainId.Ethereum,
     enabled: false,
@@ -66,7 +66,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'shiba-inu',
   },
   {
-    name: 'LINK',
+    name: 'Chainlink',
     address: '0x514910771AF9Ca656af840dff83E8264EcF986CA',
     chainId: ChainId.Ethereum,
     enabled: false,
@@ -75,7 +75,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'link',
   },
   {
-    name: 'UNI',
+    name: 'Uniswap',
     address: '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984',
     chainId: ChainId.Ethereum,
     enabled: false,

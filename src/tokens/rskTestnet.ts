@@ -3,7 +3,7 @@ import { IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
-    name: 'RBTC',
+    name: 'rBTC',
     address: '0x0000000000000000000000000000000000000000',
     chainId: ChainId.RSKTestnet,
     enabled: true,
@@ -12,7 +12,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'rootstock',
   },
   {
-    name: 'USDT',
+    name: 'Tether',
     address: '0x8672aDF72de0a0650c4001aaD8083042A4D18E88',
     chainId: ChainId.RSKTestnet,
     enabled: true,
@@ -21,7 +21,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'tether',
   },
   {
-    name: 'DAI',
+    name: 'Dai',
     address: '0x4ec48Cb892Fa8D66bF87A43A5583c748fe8c1613',
     chainId: ChainId.RSKTestnet,
     enabled: true,
@@ -30,7 +30,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'dai',
   },
   {
-    name: 'RDOC',
+    name: 'RIF Dollar On Chain',
     address: '0xC3De9F38581f83e281f260d0DdbaAc0e102ff9F8',
     chainId: ChainId.RSKTestnet,
     enabled: true,

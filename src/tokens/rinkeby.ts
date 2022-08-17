@@ -3,7 +3,7 @@ import { IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
-    name: 'USDT',
+    name: 'Tether',
     address: '0xd0CdDBee19A25D65B0D905F7053Fdd19947ab370',
     chainId: ChainId.Rinkeby,
     enabled: true,
@@ -12,7 +12,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'tether',
   },
   {
-    name: 'DAI',
+    name: 'Dai',
     address: '0x659b25Cbf47128BF952EFB97f27b0821F169A1E5',
     chainId: ChainId.Rinkeby,
     enabled: true,
@@ -21,7 +21,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'dai',
   },
   {
-    name: 'WBTC',
+    name: 'Wrapped Bitcoin',
     address: '0x879947a97a662E8294aFD601a901383D7731484e',
     chainId: ChainId.Rinkeby,
     enabled: true,
@@ -30,7 +30,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'wrapped-bitcoin',
   },
   {
-    name: 'ETH',
+    name: 'Ethereum',
     address: '0x0000000000000000000000000000000000000000',
     chainId: ChainId.Rinkeby,
     enabled: false,
@@ -39,7 +39,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'ethereum',
   },
   {
-    name: 'USDC',
+    name: 'USD Coin',
     address: '0xD7147aa27eA246B2145B19B956f2342Fb6a0E667',
     chainId: ChainId.Rinkeby,
     enabled: true,
@@ -48,7 +48,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'usd-coin',
   },
   {
-    name: 'DOGE',
+    name: 'Dogecoin',
     address: '0xB860F43eE3325f4B7f5aE80113C0Ff7bc1cFbcE2',
     chainId: ChainId.Rinkeby,
     enabled: true,

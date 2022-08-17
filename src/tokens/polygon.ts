@@ -42,7 +42,7 @@ export const tokens: IToken[] = [
     name: 'Polygon',
     address: '0x0000000000000000000000000000000000000000',
     chainId: ChainId.Polygon,
-    enabled: true,
+    enabled: false,
     decimals: 18,
     symbol: 'MATIC',
     coingeckoId: 'matic-network',

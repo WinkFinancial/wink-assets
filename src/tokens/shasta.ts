@@ -3,7 +3,7 @@ import { IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
-    name: 'TRX',
+    name: 'TRON',
     address: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb',
     chainId: ChainId.Shasta,
     enabled: true,
@@ -12,7 +12,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'tron',
   },
   {
-    name: 'USDT',
+    name: 'Tether',
     address: 'TSsjPxRVQxN5CKk59Gfxyme5vhgp3ymSKq',
     chainId: ChainId.Shasta,
     enabled: true,
@@ -21,7 +21,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'tether',
   },
   {
-    name: 'ADA',
+    name: 'Cardano',
     address: 'TTMuLqv8eLSVUbdR8U6rPH99HZKGAfX7J2',
     chainId: ChainId.Shasta,
     enabled: true,

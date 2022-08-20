@@ -107,14 +107,14 @@ export const networksByChainId: INetworkByChainId = {
   [ChainId.Polygon]: {
     name: 'Polygon',
     chainId: ChainId.Polygon,
-    payrollAddress: '0x0000000000000000000000000000000000000000',
+    payrollAddress: '0x8441F4b54EC3E641d6144415AB2381315d7BC8Ec',
     routerAddress: '0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff', // quickswap.exchange v2
     wrappedTokenAddress: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
     isSwapV2: true,
     addressExplorerUrl: 'https://polygonscan.com/address/',
     txExplorerUrl: 'https://polygonscan.com/tx/',
     isMainnet: true,
-    enabled: false,
+    enabled: true,
     multicallAddress: '0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507',
   },
   [ChainId.Mumbai]: {

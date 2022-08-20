@@ -16,8 +16,8 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
     logoURL: 'https://assets.coingecko.com/coins/images/825/small/bnb-icon2_2x.png',
     mainColor: '#f0b90a',
   },
-  BTCB: {
-    symbol: 'BTCB',
+  BTC: {
+    symbol: 'BTC',
     logoURL: 'https://bscscan.com/token/images/btcb_32.png',
     mainColor: '#f0b90a',
   },
@@ -28,11 +28,6 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
   },
   DAI: {
     symbol: 'DAI',
-    logoURL: 'https://assets.coingecko.com/coins/images/9956/small/4943.png',
-    mainColor: '#fab21f',
-  },
-  DAI2: {
-    symbol: 'DAI2',
     logoURL: 'https://assets.coingecko.com/coins/images/9956/small/4943.png',
     mainColor: '#fab21f',
   },
@@ -93,11 +88,6 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
   },
   USDT: {
     symbol: 'USDT',
-    logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
-    mainColor: '#03ac84',
-  },
-  USDT2: {
-    symbol: 'USDT2',
     logoURL: 'https://assets.coingecko.com/coins/images/325/small/Tether-logo.png',
     mainColor: '#03ac84',
   },

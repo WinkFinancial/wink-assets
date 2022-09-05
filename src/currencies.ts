@@ -1,12 +1,14 @@
-import { ICurrency } from "./interfaces";
+import { ICurrency } from './interfaces'
 
 export const CURRENCIES: ICurrency[] = [
-    {
-      name: 'U$D',
-      symbol: 'USD',
-    },
-    {
-      name: 'Peso',
-      symbol: 'ARS',
-    },
-  ]
+  {
+    name: 'United States Dollar',
+    symbol: '$',
+    code: 'USD',
+  },
+  {
+    name: 'Peso',
+    symbol: '$',
+    code: 'ARS',
+  },
+]

@@ -23,6 +23,12 @@ export interface IToken {
   coingeckoId?: string
 }
 
+export interface ICurrency {
+  name: string
+  symbol: string
+}
+
+
 export interface IAssetAttributes {
   logoURL: string
   mainColor: string

@@ -10,7 +10,7 @@ export const FRECUENCIES: IFrecuency[] = [
     code: 'week',
   },
   {
-    name: 'Live striming',
+    name: 'Live streaming',
     code: 'livestreaming',
   },
 ]

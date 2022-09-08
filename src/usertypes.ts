@@ -3,14 +3,14 @@ import { IUserType } from './interfaces'
 export const USERTYPES: IUserType[] = [
   {
     name: 'Employee',
-    code: 'E',
+    code: 'employee',
   },
   {
     name: 'Contractor',
-    code: 'C',
+    code: 'contractor',
   },
   {
     name: 'Provider',
-    code: 'P',
+    code: 'provider',
   },
 ]

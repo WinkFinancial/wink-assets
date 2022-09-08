@@ -3,14 +3,14 @@ import { IFrecuency } from './interfaces'
 export const FRECUENCIES: IFrecuency[] = [
   {
     name: 'Month',
-    code: 'M',
+    code: 'month',
   },
   {
     name: 'Week',
-    code: 'W',
+    code: 'week',
   },
   {
     name: 'Live striming',
-    code: 'L',
+    code: 'livestreaming',
   },
 ]

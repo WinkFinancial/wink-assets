@@ -33,7 +33,7 @@ export const tokens: IToken[] = [
     name: 'Ethereum',
     address: '0x0000000000000000000000000000000000000000',
     chainId: ChainId.Rinkeby,
-    enabled: false,
+    enabled: true,
     decimals: 18,
     symbol: 'ETH',
     coingeckoId: 'ethereum',

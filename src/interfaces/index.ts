@@ -11,6 +11,7 @@ export interface INetwork {
   isMainnet: boolean
   enabled: boolean
   multicallAddress?: string
+  minNativeToken: string // minNativeToken is subtracted from native token balance to be used in transactions
 }
 
 export interface IToken {

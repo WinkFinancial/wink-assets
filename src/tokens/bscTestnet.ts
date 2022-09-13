@@ -33,7 +33,7 @@ export const tokens: IToken[] = [
     name: 'BNB',
     address: '0x0000000000000000000000000000000000000000',
     chainId: ChainId.BSCTestnet,
-    enabled: false,
+    enabled: true,
     decimals: 18,
     symbol: 'BNB',
     coingeckoId: 'binancecoin',

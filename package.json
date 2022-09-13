@@ -1,6 +1,6 @@
 {
   "name": "@wink-financial/wink-assets",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
@@ -26,6 +26,8 @@
     "@typescript-eslint/parser": "^5.30.0",
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "typescript": "^4.7.4"
   },

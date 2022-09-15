@@ -62,4 +62,14 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
     logoURL: 'https://tron.network/static/images/header/logo-red.svg',
     mainColor: '#eb0128',
   },
+  [ChainId.Evmos]: {
+    chainId: ChainId.Evmos,
+    logoURL: 'https://assets.coingecko.com/coins/images/24023/small/evmos.png',
+    mainColor: '#1d0f32',
+  },
+  [ChainId.EvmosTestnet]: {
+    chainId: ChainId.EvmosTestnet,
+    logoURL: 'https://assets.coingecko.com/coins/images/24023/small/evmos.png',
+    mainColor: '#1d0f32',
+  },
 }

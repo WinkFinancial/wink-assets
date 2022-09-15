@@ -5,7 +5,7 @@ export const tokens: IToken[] = [
   {
     name: 'rBTC',
     address: '0x0000000000000000000000000000000000000000',
-    chainId: ChainId.RSKTestnet,
+    chainId: ChainId.RSK,
     enabled: false,
     decimals: 18,
     symbol: 'RBTC',

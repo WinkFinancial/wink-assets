@@ -12,6 +12,8 @@ import * as polygon from './polygon'
 import * as mumbai from './mumbai'
 import * as shasta from './shasta'
 import * as tron from './tron'
+import * as evmos from './evmos'
+import * as evmosTestnet from './evmosTestnet'
 import { IToken } from '../interfaces'
 
 export const tokensByChainId: ITokensByChainId = {
@@ -27,6 +29,8 @@ export const tokensByChainId: ITokensByChainId = {
   [ChainId.Mumbai]: mumbai.tokens,
   [ChainId.Shasta]: shasta.tokens,
   [ChainId.Tron]: tron.tokens,
+  [ChainId.Evmos]: evmos.tokens,
+  [ChainId.EvmosTestnet]: evmosTestnet.tokens,
 }
 
 export const allTokens: IToken[] = [
@@ -42,6 +46,8 @@ export const allTokens: IToken[] = [
   ...mumbai.tokens,
   ...shasta.tokens,
   ...tron.tokens,
+  ...evmos.tokens,
+  ...evmosTestnet.tokens,
 ]
 
 export const ethereumTokens = ethereum.tokens
@@ -56,3 +62,5 @@ export const polygonTokens = polygon.tokens
 export const mumbaiTokens = mumbai.tokens
 export const shastaTokens = shasta.tokens
 export const tronTokens = tron.tokens
+export const evmosTokens = evmos.tokens
+export const evmosTestnetTokens = evmosTestnet.tokens

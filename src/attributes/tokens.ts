@@ -106,4 +106,14 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
     logoURL: 'https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png',
     mainColor: '#22282e',
   },
+  EVMOS: {
+    symbol: 'EVMOS',
+    logoURL: 'https://assets.coingecko.com/coins/images/24023/small/evmos.png',
+    mainColor: '#1d0f32',
+  },
+  TEVMOS: {
+    symbol: 'TEVMOS',
+    logoURL: 'https://assets.coingecko.com/coins/images/24023/small/evmos.png',
+    mainColor: '#1d0f32',
+  },
 }

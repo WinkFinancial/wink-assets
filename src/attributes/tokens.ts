@@ -116,4 +116,9 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
     logoURL: 'https://assets.coingecko.com/coins/images/24023/small/evmos.png',
     mainColor: '#1d0f32',
   },
+  IOTX: {
+    symbol: 'IOTX',
+    logoURL: 'https://assets.coingecko.com/coins/images/3334/small/iotex-logo.png?1547037941',
+    mainColor: '#171e27',
+  },
 }

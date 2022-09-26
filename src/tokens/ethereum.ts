@@ -83,4 +83,13 @@ export const tokens: IToken[] = [
     symbol: 'UNI',
     coingeckoId: 'uniswap',
   },
+  {
+    name: 'IoTex',
+    address: '0x6fb3e0a217407efff7ca062d46c26e5d60a14d69',
+    chainId: ChainId.Ethereum,
+    enabled: true,
+    decimals: 18,
+    symbol: 'IOTX',
+    coingeckoId: 'iotex',
+  },
 ]

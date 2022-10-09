@@ -14,6 +14,8 @@ import * as shasta from './shasta'
 import * as tron from './tron'
 import * as evmos from './evmos'
 import * as evmosTestnet from './evmosTestnet'
+import * as celo from './celo'
+import * as celoAlfajoresTestnet from './celoAlfajoresTestnet'
 import { IToken } from '../interfaces'
 
 export const tokensByChainId: ITokensByChainId = {
@@ -31,6 +33,8 @@ export const tokensByChainId: ITokensByChainId = {
   [ChainId.Tron]: tron.tokens,
   [ChainId.Evmos]: evmos.tokens,
   [ChainId.EvmosTestnet]: evmosTestnet.tokens,
+  [ChainId.Celo]: celo.tokens,
+  [ChainId.CeloAlfajoresTestnet]: celoAlfajoresTestnet.tokens,
 }
 
 export const allTokens: IToken[] = [
@@ -48,6 +52,8 @@ export const allTokens: IToken[] = [
   ...tron.tokens,
   ...evmos.tokens,
   ...evmosTestnet.tokens,
+  ...celo.tokens,
+  ...celoAlfajoresTestnet.tokens,
 ]
 
 export const ethereumTokens = ethereum.tokens
@@ -64,3 +70,5 @@ export const shastaTokens = shasta.tokens
 export const tronTokens = tron.tokens
 export const evmosTokens = evmos.tokens
 export const evmosTestnetTokens = evmosTestnet.tokens
+export const celoTokens = celo.tokens
+export const celoAlfajoresTestnetTokens = celoAlfajoresTestnet.tokens

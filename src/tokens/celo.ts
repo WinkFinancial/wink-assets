@@ -30,7 +30,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'celo-euro',
   },
   {
-    name: 'Wrapped Ethereum',
+    name: 'Optics WETH v2',
     address: '0x122013fd7dF1C6F636a5bb8f03108E876548b455',
     chainId: ChainId.Celo,
     enabled: true,

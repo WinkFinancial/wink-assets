@@ -32,7 +32,7 @@ export const tokens: IToken[] = [
   {
     name: 'Wrapped Bitcoin',
     address: '0xC71b05ba6A163aC512A920e81ef795E5b105448d',
-    chainId: ChainId.Celo,
+    chainId: ChainId.CeloAlfajoresTestnet,
     enabled: true,
     decimals: 18,
     symbol: 'WBTC',
@@ -41,7 +41,7 @@ export const tokens: IToken[] = [
   {
     name: 'Tether',
     address: '0xe2EBFC705d473C3dDd52CB49AF0bdE3132E8831e',
-    chainId: ChainId.Celo,
+    chainId: ChainId.CeloAlfajoresTestnet,
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
@@ -50,7 +50,7 @@ export const tokens: IToken[] = [
   {
     name: 'DAI Stablecoin',
     address: '0xb3D06103af1A68026615E673d46047FAB77DB0Fa',
-    chainId: ChainId.Celo,
+    chainId: ChainId.CeloAlfajoresTestnet,
     enabled: true,
     decimals: 18,
     symbol: 'DAI',

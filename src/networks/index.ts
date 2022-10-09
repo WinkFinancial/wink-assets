@@ -206,4 +206,30 @@ export const networksByChainId: INetworkByChainId = {
     minNativeToken: '0.01',
     index: 14,
   },
+  [ChainId.Celo]: {
+    name: 'Celo Mainnet',
+    chainId: ChainId.Celo,
+    payrollAddress: '0x0000000000000000000000000000000000000000',
+    routerAddress: '0x1421bDe4B10e8dd459b3BCb598810B1337D56842', // sushiswap.io v2
+    wrappedTokenAddress: '0x0000000000000000000000000000000000000000', // Celo es un token 0x471EcE3750Da237f93B8E339c536989b8978a438 ademas de ser nativo, no hay necesidad de wrappear aca
+    isSwapV2: true,
+    addressExplorerUrl: 'https://celoscan.io/address/',
+    txExplorerUrl: 'https://celoscan.io/tx/',
+    isMainnet: true,
+    enabled: false,
+    minNativeToken: '0.01',
+  },
+  [ChainId.CeloAlfajoresTestnet]: {
+    name: 'Celo Alfajores Testnet',
+    chainId: ChainId.CeloAlfajoresTestnet,
+    payrollAddress: '0x040007b1804AD78a97F541beBeD377dcB60e4138',
+    routerAddress: '0xE3D8bd6Aed4F159bc8000a9cD47CffDb95F96121', // ubeswap v2
+    wrappedTokenAddress: '0x0000000000000000000000000000000000000000', // Celo es un token 0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9 ademas de ser nativo, no hay necesidad de wrappear aca
+    isSwapV2: true,
+    addressExplorerUrl: 'https://alfajores-blockscout.celo-testnet.org//address/',
+    txExplorerUrl: 'https://alfajores-blockscout.celo-testnet.org//tx/',
+    isMainnet: false,
+    enabled: true,
+    minNativeToken: '0.01',
+  },
 }

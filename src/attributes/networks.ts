@@ -72,4 +72,14 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
     logoURL: 'https://assets.coingecko.com/coins/images/24023/small/evmos.png',
     mainColor: '#1d0f32',
   },
+  [ChainId.Celo]: {
+    chainId: ChainId.Celo,
+    logoURL: 'https://assets.coingecko.com/coins/images/11090/small/icon-celo-CELO-color-500.png',
+    mainColor: '#35D07E',
+  },
+  [ChainId.CeloAlfajoresTestnet]: {
+    chainId: ChainId.CeloAlfajoresTestnet,
+    logoURL: 'https://assets.coingecko.com/coins/images/11090/small/icon-celo-CELO-color-500.png',
+    mainColor: '#35D07E',
+  },
 }

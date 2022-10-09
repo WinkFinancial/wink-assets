@@ -12,7 +12,7 @@ export const tokens: IToken[] = [
     coingeckoId: 'tether',
   },
   {
-    name: 'Wraped Bitcoin',
+    name: 'Wrapped Bitcoin',
     address: '0xCbBbdc113F480a83050C7Cd2420E100Cf6305858',
     chainId: ChainId.BSCTestnet,
     enabled: true,

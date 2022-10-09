@@ -13,4 +13,6 @@ export enum ChainId {
   Shasta = 728126429, // This does not exist in chainId list metamask)
   Evmos = 9001,
   EvmosTestnet = 9000,
+  Celo = 42220,
+  CeloAlfajoresTestnet = 44787,
 }

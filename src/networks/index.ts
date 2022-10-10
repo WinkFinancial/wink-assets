@@ -161,6 +161,7 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://evm.evmos.org/tx/',
     isMainnet: true,
     enabled: false,
+    multicallAddress: '0xcA11bde05977b3631167028862bE2a173976CA11', //https://github.com/joshstevens19/ethereum-multicall/blob/master/src/multicall.ts#L596
     minNativeToken: '0.01',
     index: 11,
   },
@@ -175,6 +176,7 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://evm.evmos.dev/tx/',
     isMainnet: false,
     enabled: true,
+    multicallAddress: '0xcA11bde05977b3631167028862bE2a173976CA11', //https://github.com/joshstevens19/ethereum-multicall/blob/master/src/multicall.ts#L596
     minNativeToken: '0.01',
     index: 12,
   },
@@ -217,6 +219,7 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://celoscan.io/tx/',
     isMainnet: true,
     enabled: false,
+    multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
     minNativeToken: '0.01',
   },
   [ChainId.CeloAlfajoresTestnet]: {
@@ -230,6 +233,7 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://alfajores-blockscout.celo-testnet.org//tx/',
     isMainnet: false,
     enabled: true,
+    multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
     minNativeToken: '0.01',
   },
 }

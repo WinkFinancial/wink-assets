@@ -74,12 +74,12 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
   },
   [ChainId.Celo]: {
     chainId: ChainId.Celo,
-    logoURL: 'https://assets.coingecko.com/coins/images/11090/small/icon-celo-CELO-color-500.png',
+    logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.svg',
     mainColor: '#35D07E',
   },
   [ChainId.CeloAlfajoresTestnet]: {
     chainId: ChainId.CeloAlfajoresTestnet,
-    logoURL: 'https://assets.coingecko.com/coins/images/11090/small/icon-celo-CELO-color-500.png',
+    logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.svg',
     mainColor: '#35D07E',
   },
 }

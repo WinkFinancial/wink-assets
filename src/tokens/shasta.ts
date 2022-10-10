@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'TRX',
+    isNativeToken: true,
     coingeckoId: 'tron',
   },
   {
@@ -18,6 +19,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
+    isNativeToken: false,
     coingeckoId: 'tether',
   },
   {
@@ -27,6 +29,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'ADA',
+    isNativeToken: false,
     coingeckoId: 'cardano',
   },
   {
@@ -36,6 +39,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'XRP',
+    isNativeToken: false,
     coingeckoId: 'ripple',
   },
 ]

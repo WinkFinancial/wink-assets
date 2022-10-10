@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'ETH',
+    isNativeToken: false,
     coingeckoId: 'ethereum',
   },
   {
@@ -18,6 +19,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDC',
+    isNativeToken: false,
     coingeckoId: 'usd-coin',
   },
   {
@@ -27,6 +29,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
+    isNativeToken: false,
     coingeckoId: 'tether',
   },
   {
@@ -36,6 +39,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'XRP',
+    isNativeToken: false,
     coingeckoId: 'ripple',
   },
   {
@@ -45,6 +49,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BUSD',
+    isNativeToken: false,
     coingeckoId: 'binance-usd',
   },
   {
@@ -54,6 +59,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'ADA',
+    isNativeToken: false,
     coingeckoId: 'cardano',
   },
   {
@@ -63,6 +69,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 8,
     symbol: 'DOGE',
+    isNativeToken: false,
     coingeckoId: 'dogecoin',
   },
   {
@@ -72,6 +79,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BTC',
+    isNativeToken: false,
     coingeckoId: 'binance-bitcoin',
   },
   {
@@ -81,6 +89,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBNB',
+    isNativeToken: false,
     coingeckoId: 'wbnb',
   },
   {
@@ -90,6 +99,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    isNativeToken: false,
     coingeckoId: 'dai',
   },
   {
@@ -99,6 +109,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BNB',
+    isNativeToken: true,
     coingeckoId: 'binancecoin',
   },
   {
@@ -108,6 +119,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'BETH',
+    isNativeToken: false,
     coingeckoId: 'binance-eth',
   },
 ]

@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
+    isNativeToken: false,
     coingeckoId: 'tether',
   },
   {
@@ -18,6 +19,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBTC',
+    isNativeToken: false,
     coingeckoId: 'wrapped-bitcoin',
   },
   {
@@ -27,6 +29,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    isNativeToken: false,
     coingeckoId: 'dai',
   },
   {
@@ -36,6 +39,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'BNB',
+    isNativeToken: true,
     coingeckoId: 'binancecoin',
   },
   {
@@ -45,6 +49,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 8,
     symbol: 'DOGE',
+    isNativeToken: false,
     coingeckoId: 'dogecoin',
   },
   {
@@ -54,6 +59,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDC',
+    isNativeToken: false,
     coingeckoId: 'usd-coin',
   },
 ]

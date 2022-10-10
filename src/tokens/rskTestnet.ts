@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'RBTC',
+    isNativeToken: true,
     coingeckoId: 'rootstock',
   },
   {
@@ -18,6 +19,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
+    isNativeToken: false,
     coingeckoId: 'tether',
   },
   {
@@ -27,6 +29,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    isNativeToken: false,
     coingeckoId: 'dai',
   },
   {
@@ -35,6 +38,7 @@ export const tokens: IToken[] = [
     chainId: ChainId.RSKTestnet,
     enabled: true,
     decimals: 18,
+    isNativeToken: false,
     symbol: 'RDOC',
   },
 ]

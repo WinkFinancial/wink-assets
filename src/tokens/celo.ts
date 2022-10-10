@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'CELO',
+    isNativeToken: true,
     coingeckoId: 'celo',
   },
   {
@@ -18,6 +19,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'cUSD',
+    isNativeToken: false,
     coingeckoId: 'celo-dollar',
   },
   {
@@ -27,6 +29,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'cEUR',
+    isNativeToken: false,
     coingeckoId: 'celo-euro',
   },
   {
@@ -36,6 +39,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WETH',
+    isNativeToken: false,
     coingeckoId: 'weth',
   },
   {
@@ -45,6 +49,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDC',
+    isNativeToken: false,
     coingeckoId: 'usd-coin',
   },
   {
@@ -54,6 +59,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    isNativeToken: false,
     coingeckoId: 'dai',
   },
 ]

@@ -15,6 +15,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x41263cba59eb80dc200f3e2544eda4ed6a90e76c',
     minNativeToken: '0.01',
+    index: 1,
   },
   [ChainId.BSCTestnet]: {
     name: 'BSC Testnet',
@@ -29,6 +30,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0xae11C5B5f29A6a25e955F0CB8ddCc416f522AF5C',
     minNativeToken: '0.01',
+    index: 2,
   },
   [ChainId.Ethereum]: {
     name: 'Ethereum',
@@ -43,6 +45,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0xeefba1e63905ef1d7acba5a8513c70307c1ce441',
     minNativeToken: '0.01',
+    index: 3,
   },
   [ChainId.Rinkeby]: {
     name: 'Rinkeby',
@@ -57,6 +60,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x42ad527de7d4e9d9d011ac45b31d8551f8fe9821',
     minNativeToken: '0.01',
+    index: 4,
   },
   [ChainId.Polygon]: {
     name: 'Polygon',
@@ -71,6 +75,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507',
     minNativeToken: '0.01',
+    index: 5,
   },
   [ChainId.Mumbai]: {
     name: 'Mumbai',
@@ -85,6 +90,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc',
     minNativeToken: '0.01',
+    index: 6,
   },
   [ChainId.RSK]: {
     name: 'RSK Mainnet',
@@ -99,6 +105,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x6c62bf5440de2cb157205b15c424bceb5c3368f5',
     minNativeToken: '0.01',
+    index: 7,
   },
   [ChainId.RSKTestnet]: {
     name: 'RSK Testnet',
@@ -113,6 +120,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x9e469e1fc7fb4c5d17897b68eaf1afc9df39f103',
     minNativeToken: '0.01',
+    index: 8,
   },
   [ChainId.Tron]: {
     name: 'Tron',
@@ -126,6 +134,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: true,
     enabled: false,
     minNativeToken: '0.01',
+    index: 9,
   },
   [ChainId.Shasta]: {
     name: 'Shasta',
@@ -139,6 +148,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: false,
     enabled: true,
     minNativeToken: '0.01',
+    index: 10,
   },
   [ChainId.Evmos]: {
     name: 'Evmos',
@@ -152,6 +162,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: true,
     enabled: false,
     minNativeToken: '0.01',
+    index: 11,
   },
   [ChainId.EvmosTestnet]: {
     name: 'Evmos Testnet',
@@ -165,6 +176,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: false,
     enabled: true,
     minNativeToken: '0.01',
+    index: 12,
   },
   [ChainId.Telos]: {
     name: 'Telos EVM Mainnet',
@@ -178,6 +190,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: true,
     enabled: false,
     minNativeToken: '0.01',
+    index: 13,
   },
   [ChainId.TelosTestnet]: {
     name: 'Telos EVM Testnet',
@@ -191,5 +204,6 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: false,
     enabled: false,
     minNativeToken: '0.01',
+    index: 14,
   },
 }

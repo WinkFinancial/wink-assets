@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'TRX',
+    isNativeToken: true,
     coingeckoId: 'tron',
   },
   {
@@ -18,6 +19,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 6,
     symbol: 'USDT',
+    isNativeToken: false,
     coingeckoId: 'tether',
   },
 ]

@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'TEVMOS',
+    isNativeToken: true,
     coingeckoId: 'evmos',
   },
   {
@@ -18,6 +19,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'USDT',
+    isNativeToken: false,
     coingeckoId: 'tether',
   },
   {
@@ -27,6 +29,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'DAI',
+    isNativeToken: false,
     coingeckoId: 'dai',
   },
   {
@@ -36,6 +39,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'WBTC',
+    isNativeToken: false,
     coingeckoId: 'wrapped-bitcoin',
   },
 ]

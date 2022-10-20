@@ -9,6 +9,7 @@ export const tokens: IToken[] = [
     enabled: false,
     decimals: 18,
     symbol: 'EVMOS',
+    isNativeToken: true,
     coingeckoId: 'evmos',
   },
 ]

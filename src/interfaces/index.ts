@@ -22,6 +22,7 @@ export interface IToken {
   enabled: boolean
   decimals: number
   symbol: string
+  isNativeToken: boolean
   coingeckoId?: string
 }
 

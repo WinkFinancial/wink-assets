@@ -161,6 +161,7 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://evm.evmos.org/tx/',
     isMainnet: true,
     enabled: false,
+    multicallAddress: '0xcA11bde05977b3631167028862bE2a173976CA11', //https://github.com/joshstevens19/ethereum-multicall/blob/master/src/multicall.ts#L596
     minNativeToken: '0.01',
     index: 11,
   },
@@ -175,6 +176,7 @@ export const networksByChainId: INetworkByChainId = {
     txExplorerUrl: 'https://evm.evmos.dev/tx/',
     isMainnet: false,
     enabled: true,
+    multicallAddress: '0xcA11bde05977b3631167028862bE2a173976CA11', //https://github.com/joshstevens19/ethereum-multicall/blob/master/src/multicall.ts#L596
     minNativeToken: '0.01',
     index: 12,
   },
@@ -205,5 +207,33 @@ export const networksByChainId: INetworkByChainId = {
     enabled: false,
     minNativeToken: '0.01',
     index: 14,
+  },
+  [ChainId.Celo]: {
+    name: 'Celo Mainnet',
+    chainId: ChainId.Celo,
+    payrollAddress: '0x0000000000000000000000000000000000000000',
+    routerAddress: '0x1421bDe4B10e8dd459b3BCb598810B1337D56842', // sushiswap.io v2
+    wrappedTokenAddress: '0x471EcE3750Da237f93B8E339c536989b8978a438', // Celo is a token 0x471EcE3750Da237f93B8E339c536989b8978a438 besides being the native currency, no need to wrap here
+    isSwapV2: true,
+    addressExplorerUrl: 'https://celoscan.io/address/',
+    txExplorerUrl: 'https://celoscan.io/tx/',
+    isMainnet: true,
+    enabled: false,
+    multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
+    minNativeToken: '0.01',
+  },
+  [ChainId.CeloAlfajoresTestnet]: {
+    name: 'Celo Alfajores Testnet',
+    chainId: ChainId.CeloAlfajoresTestnet,
+    payrollAddress: '0x040007b1804AD78a97F541beBeD377dcB60e4138',
+    routerAddress: '0xE3D8bd6Aed4F159bc8000a9cD47CffDb95F96121', // ubeswap v2
+    wrappedTokenAddress: '0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9', // Celo is a token 0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9besides being the native currency, no need to wrap here
+    isSwapV2: true,
+    addressExplorerUrl: 'https://alfajores-blockscout.celo-testnet.org//address/',
+    txExplorerUrl: 'https://alfajores-blockscout.celo-testnet.org//tx/',
+    isMainnet: false,
+    enabled: true,
+    multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
+    minNativeToken: '0.01',
   },
 }

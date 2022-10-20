@@ -101,6 +101,11 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
     logoURL: 'https://assets.coingecko.com/coins/images/7598/small/wrapped_bitcoin_wbtc.png',
     mainColor: '#ef9241',
   },
+  WETH: {
+    symbol: 'WETH',
+    logoURL: 'https://assets.coingecko.com/coins/images/279/small/ethereum.png',
+    mainColor: '#62688f',
+  },
   XRP: {
     symbol: 'XRP',
     logoURL: 'https://assets.coingecko.com/coins/images/44/small/xrp-symbol-white-128.png',
@@ -118,7 +123,22 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
   },
   IOTX: {
     symbol: 'IOTX',
-    logoURL: 'https://assets.coingecko.com/coins/images/3334/small/iotex-logo.png?1547037941',
+    logoURL: 'https://assets.coingecko.com/coins/images/3334/small/iotex-logo.png',
     mainColor: '#171e27',
+  },
+  CELO: {
+    symbol: 'CELO',
+    logoURL: 'https://assets.coingecko.com/coins/images/11090/small/icon-celo-CELO-color-500.png',
+    mainColor: '#FCCC5C',
+  },
+  cUSD: {
+    symbol: 'cUSD',
+    logoURL: 'https://assets.coingecko.com/coins/images/13161/small/icon-celo-dollar-color-1000-circle-cropped.png',
+    mainColor: '#47CC85',
+  },
+  cEUR: {
+    symbol: 'cEUR',
+    logoURL: 'https://assets.coingecko.com/coins/images/16756/small/CEUR.png',
+    mainColor: '#000000',
   },
 }

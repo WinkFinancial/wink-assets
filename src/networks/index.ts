@@ -221,6 +221,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: false,
     multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
     minNativeToken: '0.01',
+    index: 15,
   },
   [ChainId.CeloAlfajoresTestnet]: {
     name: 'Celo Alfajores Testnet',
@@ -235,5 +236,6 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
     minNativeToken: '0.01',
+    index: 16,
   },
 }

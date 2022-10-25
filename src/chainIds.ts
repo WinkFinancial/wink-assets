@@ -15,4 +15,6 @@ export enum ChainId {
   EvmosTestnet = 9000,
   Celo = 42220,
   CeloAlfajoresTestnet = 44787,
+  IoTeX = 4689,
+  IoTeXTestnet = 4690,
 }

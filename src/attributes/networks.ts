@@ -82,4 +82,14 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
     logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.svg',
     mainColor: '#35D07E',
   },
+  [ChainId.IoTeX]: {
+    chainId: ChainId.IoTeX,
+    logoURL: 'https://assets.coingecko.com/coins/images/3334/small/iotex-logo.png',
+    mainColor: '#171E27',
+  },
+  [ChainId.IoTeXTestnet]: {
+    chainId: ChainId.IoTeXTestnet,
+    logoURL: 'https://assets.coingecko.com/coins/images/3334/small/iotex-logo.png',
+    mainColor: '#171E27',
+  },
 }

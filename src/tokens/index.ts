@@ -16,6 +16,8 @@ import * as evmos from './evmos'
 import * as evmosTestnet from './evmosTestnet'
 import * as celo from './celo'
 import * as celoAlfajoresTestnet from './celoAlfajoresTestnet'
+import * as iotex from './iotex'
+import * as iotexTestnet from './iotexTestnet'
 import { IToken } from '../interfaces'
 
 export const tokensByChainId: ITokensByChainId = {
@@ -35,6 +37,8 @@ export const tokensByChainId: ITokensByChainId = {
   [ChainId.EvmosTestnet]: evmosTestnet.tokens,
   [ChainId.Celo]: celo.tokens,
   [ChainId.CeloAlfajoresTestnet]: celoAlfajoresTestnet.tokens,
+  [ChainId.IoTeX]: iotex.tokens,
+  [ChainId.IoTeXTestnet]: iotexTestnet.tokens,
 }
 
 export const allTokens: IToken[] = [
@@ -54,6 +58,8 @@ export const allTokens: IToken[] = [
   ...evmosTestnet.tokens,
   ...celo.tokens,
   ...celoAlfajoresTestnet.tokens,
+  ...iotex.tokens,
+  ...iotexTestnet.tokens,
 ]
 
 export const ethereumTokens = ethereum.tokens
@@ -72,3 +78,5 @@ export const evmosTokens = evmos.tokens
 export const evmosTestnetTokens = evmosTestnet.tokens
 export const celoTokens = celo.tokens
 export const celoAlfajoresTestnetTokens = celoAlfajoresTestnet.tokens
+export const iotexTokens = iotex.tokens
+export const iotexTestnetTokens = iotexTestnet.tokens

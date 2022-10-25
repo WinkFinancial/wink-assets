@@ -121,11 +121,6 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
     logoURL: 'https://assets.coingecko.com/coins/images/24023/small/evmos.png',
     mainColor: '#1d0f32',
   },
-  IOTX: {
-    symbol: 'IOTX',
-    logoURL: 'https://assets.coingecko.com/coins/images/3334/small/iotex-logo.png',
-    mainColor: '#171e27',
-  },
   CELO: {
     symbol: 'CELO',
     logoURL: 'https://assets.coingecko.com/coins/images/11090/small/icon-celo-CELO-color-500.png',
@@ -140,5 +135,15 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
     symbol: 'cEUR',
     logoURL: 'https://assets.coingecko.com/coins/images/16756/small/CEUR.png',
     mainColor: '#000000',
+  },
+  IOTX: {
+    symbol: 'IOTX',
+    logoURL: 'https://assets.coingecko.com/coins/images/3334/small/iotex-logo.png',
+    mainColor: '#171e27',
+  },
+  CIOTX: {
+    symbol: 'CIOTX',
+    logoURL: 'https://dashboard-assets.dappradar.com/document/8970/crosschainiotx-dapp-defi-iotex-logo-166x166_7aa89ff3eec850e3a35a21fcff895595.png',
+    mainColor: '#171e27',
   },
 }

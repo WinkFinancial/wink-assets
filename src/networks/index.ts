@@ -241,7 +241,7 @@ export const networksByChainId: INetworkByChainId = {
   [ChainId.IoTeX]: {
     name: 'IoTeX Mainnet',
     chainId: ChainId.IoTeX,
-    payrollAddress: '',
+    payrollAddress: '0xe2EBFC705d473C3dDd52CB49AF0bdE3132E8831e',
     routerAddress: '0x95cb18889b968ababb9104f30af5b310bd007fd8', // Mimo v2
     wrappedTokenAddress: '0xA00744882684C3e4747faEFD68D283eA44099D03',
     isSwapV2: true,

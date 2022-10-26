@@ -50,6 +50,6 @@ export const tokens: IToken[] = [
     decimals: 18,
     symbol: 'BUSD',
     isNativeToken: false,
-    coingeckoId: 'ioBUSD',
+    coingeckoId: 'iobusd',
   },
 ]

@@ -258,7 +258,7 @@ export const networksByChainId: INetworkByChainId = {
     chainId: ChainId.IoTeXTestnet,
     payrollAddress: '0xe4aa0f414725C9322a1a9D80d469c5e234786653',
     routerAddress: '0x95cb18889b968ababb9104f30af5b310bd007fd8', // Mimo v2
-    wrappedTokenAddress: '0xA00744882684C3e4747faEFD68D283eA44099D03',
+    wrappedTokenAddress: '0xff5Fae9FE685B90841275e32C348Dc4426190DB0',
     isSwapV2: true,
     addressExplorerUrl: 'https://testnet.iotexscan.io/address/',
     txExplorerUrl: 'https://testnet.iotexscan.io/tx/',

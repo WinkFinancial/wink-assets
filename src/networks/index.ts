@@ -241,7 +241,7 @@ export const networksByChainId: INetworkByChainId = {
   [ChainId.IoTeX]: {
     name: 'IoTeX Mainnet',
     chainId: ChainId.IoTeX,
-    payrollAddress: '0xe2EBFC705d473C3dDd52CB49AF0bdE3132E8831e',
+    payrollAddress: '0xe4D351911A6d599F91A3DB1843e2ECb0f851E7e6',
     routerAddress: '0x95cb18889b968ababb9104f30af5b310bd007fd8', // Mimo v2
     wrappedTokenAddress: '0xA00744882684C3e4747faEFD68D283eA44099D03',
     isSwapV2: true,
@@ -256,7 +256,7 @@ export const networksByChainId: INetworkByChainId = {
   [ChainId.IoTeXTestnet]: {
     name: 'IoTeX Testnet',
     chainId: ChainId.IoTeXTestnet,
-    payrollAddress: '0xe4aa0f414725C9322a1a9D80d469c5e234786653',
+    payrollAddress: '0x8582f510817731Be46e6A8380cF4eEFfc05aa5f1',
     routerAddress: '0x95cb18889b968ababb9104f30af5b310bd007fd8', // Mimo v2
     wrappedTokenAddress: '0xff5Fae9FE685B90841275e32C348Dc4426190DB0',
     isSwapV2: true,

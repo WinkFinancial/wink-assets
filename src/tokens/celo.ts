@@ -9,7 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'CELO',
-    isNativeToken: true,
+    isNativeToken: false,
     coingeckoId: 'celo',
   },
   {

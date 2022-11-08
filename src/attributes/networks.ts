@@ -44,22 +44,22 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
   },
   [ChainId.Polygon]: {
     chainId: ChainId.Polygon,
-    logoURL: 'https://polygonscan.com/images/svg/brands/polygon.svg',
+    logoURL: 'https://polygonscan.com/images/svg/brands/polygon.png',
     mainColor: '#7b3fe4',
   },
   [ChainId.Mumbai]: {
     chainId: ChainId.Mumbai,
-    logoURL: 'https://polygonscan.com/images/svg/brands/polygon.svg',
+    logoURL: 'https://polygonscan.com/images/svg/brands/polygon.png',
     mainColor: '#8247e5',
   },
   [ChainId.Shasta]: {
     chainId: ChainId.Shasta,
-    logoURL: 'https://tron.network/static/images/header/logo-red.svg',
+    logoURL: 'https://cryptologos.cc/logos/tron-trx-logo.png',
     mainColor: '#3136a7',
   },
   [ChainId.Tron]: {
     chainId: ChainId.Tron,
-    logoURL: 'https://tron.network/static/images/header/logo-red.svg',
+    logoURL: 'https://cryptologos.cc/logos/tron-trx-logo.png',
     mainColor: '#eb0128',
   },
   [ChainId.Evmos]: {

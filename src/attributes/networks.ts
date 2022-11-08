@@ -74,12 +74,12 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
   },
   [ChainId.Celo]: {
     chainId: ChainId.Celo,
-    logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.svg',
+    logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.png',
     mainColor: '#35D07E',
   },
   [ChainId.CeloAlfajoresTestnet]: {
     chainId: ChainId.CeloAlfajoresTestnet,
-    logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.svg',
+    logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.png',
     mainColor: '#35D07E',
   },
   [ChainId.IoTeX]: {

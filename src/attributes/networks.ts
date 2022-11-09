@@ -44,12 +44,12 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
   },
   [ChainId.Polygon]: {
     chainId: ChainId.Polygon,
-    logoURL: 'https://polygonscan.com/images/svg/brands/polygon.png',
+    logoURL: 'https://cryptologos.cc/logos/polygon-matic-logo.png',
     mainColor: '#7b3fe4',
   },
   [ChainId.Mumbai]: {
     chainId: ChainId.Mumbai,
-    logoURL: 'https://polygonscan.com/images/svg/brands/polygon.png',
+    logoURL: 'https://cryptologos.cc/logos/polygon-matic-logo.png',
     mainColor: '#8247e5',
   },
   [ChainId.Shasta]: {

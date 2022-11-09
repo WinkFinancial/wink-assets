@@ -53,7 +53,7 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
   },
   RBTC: {
     symbol: 'RBTC',
-    logoURL: 'https://www.rsk.co/img/pictures/rsk-logo-token.svg',
+    logoURL: 'https://developers.rsk.co/assets/img/rsk/RBTC-logo.png',
     mainColor: '#119755',
   },
   RDOC: {

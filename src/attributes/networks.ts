@@ -44,22 +44,22 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
   },
   [ChainId.Polygon]: {
     chainId: ChainId.Polygon,
-    logoURL: 'https://polygonscan.com/images/svg/brands/polygon.svg',
+    logoURL: 'https://cryptologos.cc/logos/polygon-matic-logo.png',
     mainColor: '#7b3fe4',
   },
   [ChainId.Mumbai]: {
     chainId: ChainId.Mumbai,
-    logoURL: 'https://polygonscan.com/images/svg/brands/polygon.svg',
+    logoURL: 'https://cryptologos.cc/logos/polygon-matic-logo.png',
     mainColor: '#8247e5',
   },
   [ChainId.Shasta]: {
     chainId: ChainId.Shasta,
-    logoURL: 'https://tron.network/static/images/header/logo-red.svg',
+    logoURL: 'https://cryptologos.cc/logos/tron-trx-logo.png',
     mainColor: '#3136a7',
   },
   [ChainId.Tron]: {
     chainId: ChainId.Tron,
-    logoURL: 'https://tron.network/static/images/header/logo-red.svg',
+    logoURL: 'https://cryptologos.cc/logos/tron-trx-logo.png',
     mainColor: '#eb0128',
   },
   [ChainId.Evmos]: {
@@ -74,12 +74,12 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
   },
   [ChainId.Celo]: {
     chainId: ChainId.Celo,
-    logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.svg',
+    logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.png',
     mainColor: '#35D07E',
   },
   [ChainId.CeloAlfajoresTestnet]: {
     chainId: ChainId.CeloAlfajoresTestnet,
-    logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.svg',
+    logoURL: 'https://cryptologos.cc/logos/celo-celo-logo.png',
     mainColor: '#35D07E',
   },
   [ChainId.IoTeX]: {

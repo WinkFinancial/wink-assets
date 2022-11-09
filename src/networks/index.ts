@@ -93,7 +93,7 @@ export const networksByChainId: INetworkByChainId = {
     index: 6,
   },
   [ChainId.RSK]: {
-    name: 'RSK Mainnet',
+    name: 'RSK',
     chainId: ChainId.RSK,
     payrollAddress: '0xC9E5dc2573bd73a01297a631A70Db089b52d205D',
     routerAddress: '0xf55c496bb1058690DB1401c4b9C19F3f44374961', // rskswap v2
@@ -181,7 +181,7 @@ export const networksByChainId: INetworkByChainId = {
     index: 12,
   },
   [ChainId.Telos]: {
-    name: 'Telos EVM Mainnet',
+    name: 'Telos EVM',
     chainId: ChainId.Telos,
     payrollAddress: '0x0000000000000000000000000000000000000000',
     routerAddress: '0xB9239AF0697C8efb42cBA3568424b06753c6da71', // zappy.finance v2
@@ -209,7 +209,7 @@ export const networksByChainId: INetworkByChainId = {
     index: 14,
   },
   [ChainId.Celo]: {
-    name: 'Celo Mainnet',
+    name: 'Celo',
     chainId: ChainId.Celo,
     payrollAddress: '0x0000000000000000000000000000000000000000',
     routerAddress: '0x1421bDe4B10e8dd459b3BCb598810B1337D56842', // sushiswap.io v2
@@ -239,7 +239,7 @@ export const networksByChainId: INetworkByChainId = {
     index: 16,
   },
   [ChainId.IoTeX]: {
-    name: 'IoTeX Mainnet',
+    name: 'IoTeX',
     chainId: ChainId.IoTeX,
     payrollAddress: '0xe4D351911A6d599F91A3DB1843e2ECb0f851E7e6',
     routerAddress: '0x95cb18889b968ababb9104f30af5b310bd007fd8', // Mimo v2

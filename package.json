@@ -1,6 +1,6 @@
 {
   "name": "@wink-financial/wink-assets",
-  "version": "2.5.9",
+  "version": "2.5.10",
   "main": "dist/index.js",
   "repository": {
     "type": "git",

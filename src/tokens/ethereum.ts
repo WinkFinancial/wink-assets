@@ -46,7 +46,7 @@ export const tokens: IToken[] = [
     name: 'Ethereum',
     address: '0x0000000000000000000000000000000000000000',
     chainId: ChainId.Ethereum,
-    enabled: false,
+    enabled: true,
     decimals: 18,
     symbol: 'ETH',
     isNativeToken: true,

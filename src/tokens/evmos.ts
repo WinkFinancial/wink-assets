@@ -6,7 +6,7 @@ export const tokens: IToken[] = [
     name: 'EVMOS',
     address: '0x0000000000000000000000000000000000000000',
     chainId: ChainId.Evmos,
-    enabled: false,
+    enabled: true,
     decimals: 18,
     symbol: 'EVMOS',
     isNativeToken: true,

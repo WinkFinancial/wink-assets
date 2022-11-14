@@ -46,7 +46,7 @@ export const tokens: IToken[] = [
     name: 'Polygon',
     address: '0x0000000000000000000000000000000000000000',
     chainId: ChainId.Polygon,
-    enabled: false,
+    enabled: true,
     decimals: 18,
     symbol: 'MATIC',
     isNativeToken: true,

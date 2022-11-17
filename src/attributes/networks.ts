@@ -12,6 +12,11 @@ export const NetworksAttributes: { [chainId: number]: INetworkAttributes } = {
     logoURL: 'https://assets.coingecko.com/coins/images/279/small/ethereum.png',
     mainColor: '#2a3f54',
   },
+  [ChainId.Goerli]: {
+    chainId: ChainId.Goerli,
+    logoURL: 'https://assets.coingecko.com/coins/images/279/small/ethereum.png',
+    mainColor: '#2a3f54',
+  },
   [ChainId.BSC]: {
     chainId: ChainId.BSC,
     logoURL: 'https://assets.coingecko.com/markets/images/469/small/Binance.png',

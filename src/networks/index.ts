@@ -235,7 +235,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: true,
     enabled: false,
     multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
-    minNativeToken: '0.01',
+    minNativeToken: '0.05',
     index: 16,
   },
   [ChainId.CeloAlfajoresTestnet]: {
@@ -250,7 +250,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: false,
     enabled: true,
     multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
-    minNativeToken: '0.01',
+    minNativeToken: '0.05',
     index: 17,
   },
   [ChainId.IoTeX]: {

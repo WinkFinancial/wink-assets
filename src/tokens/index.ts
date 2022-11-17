@@ -2,6 +2,7 @@ import { ChainId } from '../chainIds'
 import { ITokensByChainId } from '../types'
 import * as ethereum from './ethereum'
 import * as rinkeby from './rinkeby'
+import * as goerli from './goerli'
 import * as bsc from './bsc'
 import * as bscTestnet from './bscTestnet'
 import * as telos from './telos'
@@ -23,6 +24,7 @@ import { IToken } from '../interfaces'
 export const tokensByChainId: ITokensByChainId = {
   [ChainId.Ethereum]: ethereum.tokens,
   [ChainId.Rinkeby]: rinkeby.tokens,
+  [ChainId.Goerli]: goerli.tokens,
   [ChainId.BSC]: bsc.tokens,
   [ChainId.BSCTestnet]: bscTestnet.tokens,
   [ChainId.Telos]: telos.tokens,
@@ -44,6 +46,7 @@ export const tokensByChainId: ITokensByChainId = {
 export const allTokens: IToken[] = [
   ...ethereum.tokens,
   ...rinkeby.tokens,
+  ...goerli.tokens,
   ...bsc.tokens,
   ...bscTestnet.tokens,
   ...telos.tokens,
@@ -64,6 +67,7 @@ export const allTokens: IToken[] = [
 
 export const ethereumTokens = ethereum.tokens
 export const rinkebyTokens = rinkeby.tokens
+export const goerliTokens = goerli.tokens
 export const bscTokens = bsc.tokens
 export const bscTestnetTokens = bscTestnet.tokens
 export const telosTokens = telos.tokens

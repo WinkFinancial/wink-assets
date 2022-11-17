@@ -57,10 +57,25 @@ export const networksByChainId: INetworkByChainId = {
     addressExplorerUrl: 'https://rinkeby.etherscan.io/address/',
     txExplorerUrl: 'https://rinkeby.etherscan.io/tx/',
     isMainnet: false,
-    enabled: true,
+    enabled: false,
     multicallAddress: '0x42ad527de7d4e9d9d011ac45b31d8551f8fe9821',
     minNativeToken: '0.01',
     index: 4,
+  },
+  [ChainId.Goerli]: {
+    name: 'Goerli',
+    chainId: ChainId.Goerli,
+    payrollAddress: '0xCcFc0d9f6fC18df7F5a1054BeFa84Af2D91C9644',
+    routerAddress: '0xE592427A0AEce92De3Edee1F18E0157C05861564', // uniswap v3
+    wrappedTokenAddress: '0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6',
+    isSwapV2: false,
+    addressExplorerUrl: 'https://goerli.etherscan.io/address/',
+    txExplorerUrl: 'https://goerli.etherscan.io/tx/',
+    isMainnet: false,
+    enabled: true,
+    multicallAddress: '0x77dCa2C955b15e9dE4dbBCf1246B4B85b651e50e',
+    minNativeToken: '0.01',
+    index: 5,
   },
   [ChainId.Polygon]: {
     name: 'Polygon',
@@ -75,7 +90,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x11ce4B23bD875D7F5C6a31084f55fDe1e9A87507',
     minNativeToken: '0.01',
-    index: 5,
+    index: 6,
   },
   [ChainId.Mumbai]: {
     name: 'Mumbai',
@@ -90,7 +105,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc',
     minNativeToken: '0.01',
-    index: 6,
+    index: 7,
   },
   [ChainId.RSK]: {
     name: 'RSK',
@@ -105,7 +120,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x6c62bf5440de2cb157205b15c424bceb5c3368f5',
     minNativeToken: '0.01',
-    index: 7,
+    index: 8,
   },
   [ChainId.RSKTestnet]: {
     name: 'RSK Testnet',
@@ -120,7 +135,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x9e469e1fc7fb4c5d17897b68eaf1afc9df39f103',
     minNativeToken: '0.01',
-    index: 8,
+    index: 9,
   },
   [ChainId.Tron]: {
     name: 'Tron',
@@ -134,7 +149,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: true,
     enabled: false,
     minNativeToken: '0.01',
-    index: 9,
+    index: 10,
   },
   [ChainId.Shasta]: {
     name: 'Shasta',
@@ -148,7 +163,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: false,
     enabled: true,
     minNativeToken: '0.01',
-    index: 10,
+    index: 11,
   },
   [ChainId.Evmos]: {
     name: 'Evmos',
@@ -163,7 +178,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: false,
     multicallAddress: '0xcA11bde05977b3631167028862bE2a173976CA11', //https://github.com/joshstevens19/ethereum-multicall/blob/master/src/multicall.ts#L596
     minNativeToken: '0.01',
-    index: 11,
+    index: 12,
   },
   [ChainId.EvmosTestnet]: {
     name: 'Evmos Testnet',
@@ -178,7 +193,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0xcA11bde05977b3631167028862bE2a173976CA11', //https://github.com/joshstevens19/ethereum-multicall/blob/master/src/multicall.ts#L596
     minNativeToken: '0.01',
-    index: 12,
+    index: 13,
   },
   [ChainId.Telos]: {
     name: 'Telos EVM',
@@ -192,7 +207,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: true,
     enabled: false,
     minNativeToken: '0.01',
-    index: 13,
+    index: 14,
   },
   [ChainId.TelosTestnet]: {
     name: 'Telos EVM Testnet',
@@ -206,7 +221,7 @@ export const networksByChainId: INetworkByChainId = {
     isMainnet: false,
     enabled: false,
     minNativeToken: '0.01',
-    index: 14,
+    index: 15,
   },
   [ChainId.Celo]: {
     name: 'Celo',
@@ -221,7 +236,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: false,
     multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
     minNativeToken: '0.01',
-    index: 15,
+    index: 16,
   },
   [ChainId.CeloAlfajoresTestnet]: {
     name: 'Celo Alfajores Testnet',
@@ -236,7 +251,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
     minNativeToken: '0.01',
-    index: 16,
+    index: 17,
   },
   [ChainId.IoTeX]: {
     name: 'IoTeX',
@@ -251,7 +266,7 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0xd150757c5f606c59f58707a27da3346003473304',
     minNativeToken: '0.01',
-    index: 17,
+    index: 18,
   },
   [ChainId.IoTeXTestnet]: {
     name: 'IoTeX Testnet',
@@ -266,6 +281,6 @@ export const networksByChainId: INetworkByChainId = {
     enabled: true,
     multicallAddress: '0x2e030ae8ef6336276319054b9d130db535319bcc',
     minNativeToken: '0.01',
-    index: 18,
+    index: 19,
   },
 }

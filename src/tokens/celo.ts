@@ -9,7 +9,7 @@ export const tokens: IToken[] = [
     enabled: true,
     decimals: 18,
     symbol: 'CELO',
-    isNativeToken: false,
+    isNativeToken: true,
     coingeckoId: 'celo',
   },
   {
@@ -31,6 +31,16 @@ export const tokens: IToken[] = [
     symbol: 'cEUR',
     isNativeToken: false,
     coingeckoId: 'celo-euro',
+  },
+  {
+    name: 'Celo Brazilian Real',
+    address: '0xe8537a3d056DA446677B9E9d6c5dB704EaAb4787',
+    chainId: ChainId.Celo,
+    enabled: true,
+    decimals: 18,
+    symbol: 'cREAL',
+    isNativeToken: false,
+    coingeckoId: 'celo-real-creal',
   },
   {
     name: 'Optics WETH v2',

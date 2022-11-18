@@ -21,50 +21,6 @@ import * as iotex from './iotex'
 import * as iotexTestnet from './iotexTestnet'
 import { IToken } from '../interfaces'
 
-export const tokensByChainId: ITokensByChainId = {
-  [ChainId.Ethereum]: ethereum.tokens,
-  [ChainId.Rinkeby]: rinkeby.tokens,
-  [ChainId.Goerli]: goerli.tokens,
-  [ChainId.BSC]: bsc.tokens,
-  [ChainId.BSCTestnet]: bscTestnet.tokens,
-  [ChainId.Telos]: telos.tokens,
-  [ChainId.TelosTestnet]: telosTestnet.tokens,
-  [ChainId.RSK]: rsk.tokens,
-  [ChainId.RSKTestnet]: rskTestnet.tokens,
-  [ChainId.Polygon]: polygon.tokens,
-  [ChainId.Mumbai]: mumbai.tokens,
-  [ChainId.Shasta]: shasta.tokens,
-  [ChainId.Tron]: tron.tokens,
-  [ChainId.Evmos]: evmos.tokens,
-  [ChainId.EvmosTestnet]: evmosTestnet.tokens,
-  [ChainId.Celo]: celo.tokens,
-  [ChainId.CeloAlfajoresTestnet]: celoAlfajoresTestnet.tokens,
-  [ChainId.IoTeX]: iotex.tokens,
-  [ChainId.IoTeXTestnet]: iotexTestnet.tokens,
-}
-
-export const allTokens: IToken[] = [
-  ...ethereum.tokens,
-  ...rinkeby.tokens,
-  ...goerli.tokens,
-  ...bsc.tokens,
-  ...bscTestnet.tokens,
-  ...telos.tokens,
-  ...telosTestnet.tokens,
-  ...rsk.tokens,
-  ...rskTestnet.tokens,
-  ...polygon.tokens,
-  ...mumbai.tokens,
-  ...shasta.tokens,
-  ...tron.tokens,
-  ...evmos.tokens,
-  ...evmosTestnet.tokens,
-  ...celo.tokens,
-  ...celoAlfajoresTestnet.tokens,
-  ...iotex.tokens,
-  ...iotexTestnet.tokens,
-]
-
 export const ethereumTokens = ethereum.tokens
 export const rinkebyTokens = rinkeby.tokens
 export const goerliTokens = goerli.tokens
@@ -84,3 +40,47 @@ export const celoTokens = celo.tokens
 export const celoAlfajoresTestnetTokens = celoAlfajoresTestnet.tokens
 export const iotexTokens = iotex.tokens
 export const iotexTestnetTokens = iotexTestnet.tokens
+
+export const tokensByChainId: ITokensByChainId = {
+  [ChainId.Ethereum]: ethereumTokens,
+  [ChainId.Rinkeby]: rinkebyTokens,
+  [ChainId.Goerli]: goerliTokens,
+  [ChainId.BSC]: bscTokens,
+  [ChainId.BSCTestnet]: bscTestnetTokens,
+  [ChainId.Telos]: telosTokens,
+  [ChainId.TelosTestnet]: telosTestnetTokens,
+  [ChainId.RSK]: rskTokens,
+  [ChainId.RSKTestnet]: rskTestnetTokens,
+  [ChainId.Polygon]: polygonTokens,
+  [ChainId.Mumbai]: mumbaiTokens,
+  [ChainId.Shasta]: shastaTokens,
+  [ChainId.Tron]: tronTokens,
+  [ChainId.Evmos]: evmosTokens,
+  [ChainId.EvmosTestnet]: evmosTestnetTokens,
+  [ChainId.Celo]: celoTokens,
+  [ChainId.CeloAlfajoresTestnet]: celoAlfajoresTestnetTokens,
+  [ChainId.IoTeX]: iotexTokens,
+  [ChainId.IoTeXTestnet]: iotexTestnetTokens,
+}
+
+export const allTokens: IToken[] = [
+  ...ethereumTokens,
+  ...rinkebyTokens,
+  ...goerliTokens,
+  ...bscTokens,
+  ...bscTestnetTokens,
+  ...telosTokens,
+  ...telosTestnetTokens,
+  ...rskTokens,
+  ...rskTestnetTokens,
+  ...polygonTokens,
+  ...mumbaiTokens,
+  ...shastaTokens,
+  ...tronTokens,
+  ...evmosTokens,
+  ...evmosTestnetTokens,
+  ...celoTokens,
+  ...celoAlfajoresTestnetTokens,
+  ...iotexTokens,
+  ...iotexTestnetTokens,
+]

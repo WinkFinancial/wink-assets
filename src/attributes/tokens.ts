@@ -136,6 +136,11 @@ export const TokensAttributes: { [tokenSymbol: string]: ITokenAttributes } = {
     logoURL: 'https://assets.coingecko.com/coins/images/16756/small/CEUR.png',
     mainColor: '#000000',
   },
+  cREAL: {
+    symbol: 'cREAL',
+    logoURL: 'https://assets.coingecko.com/coins/images/27205/small/creal.png',
+    mainColor: '#47CC85',
+  },
   IOTX: {
     symbol: 'IOTX',
     logoURL: 'https://assets.coingecko.com/coins/images/3334/small/iotex-logo.png',

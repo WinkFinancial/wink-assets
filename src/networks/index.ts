@@ -226,14 +226,14 @@ export const networksByChainId: INetworkByChainId = {
   [ChainId.Celo]: {
     name: 'Celo',
     chainId: ChainId.Celo,
-    payrollAddress: '0x0000000000000000000000000000000000000000',
+    payrollAddress: '0x040007b1804AD78a97F541beBeD377dcB60e4138',
     routerAddress: '0x1421bDe4B10e8dd459b3BCb598810B1337D56842', // sushiswap.io v2
     wrappedTokenAddress: '0x471EcE3750Da237f93B8E339c536989b8978a438', // Celo is a token 0x471EcE3750Da237f93B8E339c536989b8978a438 besides being the native currency, no need to wrap here
     isSwapV2: true,
     addressExplorerUrl: 'https://celoscan.io/address/',
     txExplorerUrl: 'https://celoscan.io/tx/',
     isMainnet: true,
-    enabled: false,
+    enabled: true,
     multicallAddress: '0x75F59534dd892c1f8a7B172D639FA854D529ada3',
     minNativeToken: '0.05',
     index: 16,

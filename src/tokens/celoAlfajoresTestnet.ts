@@ -36,7 +36,7 @@ export const tokens: IToken[] = [
     name: 'Celo Brazilian Real',
     address: '0xe4d517785d091d3c54818832db6094bcc2744545',
     chainId: ChainId.CeloAlfajoresTestnet,
-    enabled: true,
+    enabled: false,
     decimals: 18,
     symbol: 'cREAL',
     isNativeToken: false,

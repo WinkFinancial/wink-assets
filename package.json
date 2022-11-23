@@ -1,6 +1,6 @@
 {
   "name": "@wink-financial/wink-assets",
-  "version": "2.5.17",
+  "version": "2.5.18",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
@@ -37,7 +37,5 @@
     "url": "https://github.com/WinkFinancial/wink-assets/issues"
   },
   "homepage": "https://github.com/WinkFinancial/wink-assets#readme",
-  "dependencies": {
-    "@ethersproject/constants": "^5.7.0"
-  }
+  "dependencies": {}
 }

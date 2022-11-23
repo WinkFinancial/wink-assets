@@ -1,5 +1,5 @@
 import { ChainId } from '../chainIds'
-import { IToken } from '../interfaces'
+import { IPaymentToken, IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
@@ -101,5 +101,36 @@ export const tokens: IToken[] = [
     symbol: 'IOTX',
     isNativeToken: false,
     coingeckoId: 'iotex',
+  },
+]
+
+export const paymentTokens: IPaymentToken[] = [
+  {
+    name: 'United States Dollar',
+    chainId: ChainId.Ethereum,
+    enabled: true,
+    symbol: 'USD',
+    isFiat: true,
+  },
+  {
+    name: 'Tether',
+    chainId: ChainId.Ethereum,
+    enabled: true,
+    symbol: 'USDT',
+    isFiat: false,
+  },
+  {
+    name: 'USD Coin',
+    chainId: ChainId.Ethereum,
+    enabled: true,
+    symbol: 'USDC',
+    isFiat: false,
+  },
+  {
+    name: 'Dai',
+    chainId: ChainId.Ethereum,
+    enabled: true,
+    symbol: 'DAI',
+    isFiat: false,
   },
 ]

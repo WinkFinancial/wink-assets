@@ -1,5 +1,5 @@
 import { ChainId } from '../chainIds'
-import { IToken } from '../interfaces'
+import { IPaymentToken, IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
@@ -40,5 +40,29 @@ export const tokens: IToken[] = [
     decimals: 18,
     isNativeToken: false,
     symbol: 'RDOC',
+  },
+]
+
+export const paymentTokens: IPaymentToken[] = [
+  {
+    name: 'United States Dollar',
+    chainId: ChainId.RSKTestnet,
+    enabled: true,
+    symbol: 'USD',
+    isFiat: true,
+  },
+  {
+    name: 'Tether',
+    chainId: ChainId.RSKTestnet,
+    enabled: true,
+    symbol: 'USDT',
+    isFiat: false,
+  },
+  {
+    name: 'Dai',
+    chainId: ChainId.RSKTestnet,
+    enabled: true,
+    symbol: 'DAI',
+    isFiat: false,
   },
 ]

@@ -26,6 +26,14 @@ export interface IToken {
   coingeckoId?: string
 }
 
+export interface IPaymentToken {
+  name: string
+  chainId: number
+  enabled: boolean
+  symbol: string
+  isFiat: boolean
+}
+
 export interface IAssetAttributes {
   logoURL: string
   mainColor: string

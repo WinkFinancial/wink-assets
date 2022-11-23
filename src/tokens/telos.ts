@@ -1,5 +1,5 @@
 import { ChainId } from '../chainIds'
-import { IToken } from '../interfaces'
+import { IPaymentToken, IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
@@ -21,5 +21,22 @@ export const tokens: IToken[] = [
     symbol: 'USDT',
     isNativeToken: false,
     coingeckoId: 'tether',
+  },
+]
+
+export const paymentTokens: IPaymentToken[] = [
+  {
+    name: 'United States Dollar',
+    chainId: ChainId.Telos,
+    enabled: true,
+    symbol: 'USD',
+    isFiat: true,
+  },
+  {
+    name: 'Tether',
+    chainId: ChainId.Telos,
+    enabled: true,
+    symbol: 'USDT',
+    isFiat: false,
   },
 ]

@@ -1,5 +1,5 @@
 import { ChainId } from '../chainIds'
-import { IToken } from '../interfaces'
+import { IPaymentToken, IToken } from '../interfaces'
 
 export const tokens: IToken[] = [
   {
@@ -11,5 +11,15 @@ export const tokens: IToken[] = [
     symbol: 'EVMOS',
     isNativeToken: true,
     coingeckoId: 'evmos',
+  },
+]
+
+export const paymentTokens: IPaymentToken[] = [
+  {
+    name: 'United States Dollar',
+    chainId: ChainId.Evmos,
+    enabled: true,
+    symbol: 'USD',
+    isFiat: true,
   },
 ]

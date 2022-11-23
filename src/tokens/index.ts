@@ -1,5 +1,5 @@
 import { ChainId } from '../chainIds'
-import { ITokensByChainId } from '../types'
+import { IPaymentTokensByChainId, ITokensByChainId } from '../types'
 import * as ethereum from './ethereum'
 import * as rinkeby from './rinkeby'
 import * as goerli from './goerli'
@@ -61,6 +61,28 @@ export const tokensByChainId: ITokensByChainId = {
   [ChainId.CeloAlfajoresTestnet]: celoAlfajoresTestnetTokens,
   [ChainId.IoTeX]: iotexTokens,
   [ChainId.IoTeXTestnet]: iotexTestnetTokens,
+}
+
+export const paymentTokensByChainId: IPaymentTokensByChainId = {
+  [ChainId.Ethereum]: ethereum.paymentTokens,
+  [ChainId.Rinkeby]: rinkeby.paymentTokens,
+  [ChainId.Goerli]: goerli.paymentTokens,
+  [ChainId.BSC]: bsc.paymentTokens,
+  [ChainId.BSCTestnet]: bscTestnet.paymentTokens,
+  [ChainId.Telos]: telos.paymentTokens,
+  [ChainId.TelosTestnet]: telosTestnet.paymentTokens,
+  [ChainId.RSK]: rsk.paymentTokens,
+  [ChainId.RSKTestnet]: rskTestnet.paymentTokens,
+  [ChainId.Polygon]: polygon.paymentTokens,
+  [ChainId.Mumbai]: mumbai.paymentTokens,
+  [ChainId.Shasta]: shasta.paymentTokens,
+  [ChainId.Tron]: tron.paymentTokens,
+  [ChainId.Evmos]: evmos.paymentTokens,
+  [ChainId.EvmosTestnet]: evmosTestnet.paymentTokens,
+  [ChainId.Celo]: celo.paymentTokens,
+  [ChainId.CeloAlfajoresTestnet]: celoAlfajoresTestnet.paymentTokens,
+  [ChainId.IoTeX]: iotex.paymentTokens,
+  [ChainId.IoTeXTestnet]: iotexTestnet.paymentTokens,
 }
 
 export const allTokens: IToken[] = [

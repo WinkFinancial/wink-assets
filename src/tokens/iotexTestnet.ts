@@ -63,6 +63,13 @@ export const paymentTokens: IPaymentToken[] = [
     isFiat: true,
   },
   {
+    name: 'IoTeX',
+    chainId: ChainId.IoTeX,
+    enabled: true,
+    symbol: 'IOTX',
+    isFiat: false,
+  },
+  {
     name: 'Tether',
     chainId: ChainId.IoTeXTestnet,
     enabled: true,
